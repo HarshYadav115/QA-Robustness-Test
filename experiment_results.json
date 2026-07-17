@@ -1,0 +1,2762 @@
+{
+  "summary": {
+    "clean_em": 66.66666666666666,
+    "clean_f1": 77.66613034907618,
+    "adversarial_em": 60.66666666666667,
+    "adversarial_f1": 71.56564348092145,
+    "f1_drop": 6.100486868154732,
+    "em_drop": 5.999999999999986,
+    "fooled_rate_pct": 2.6666666666666665
+  },
+  "logs": [
+    {
+      "id": "573020f7b2c2fd14005688fa",
+      "question": "When did Hamas drive the PLO out of Gaza?",
+      "gold_answers": [
+        "2007",
+        "2007",
+        "2007"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that From 2000 to 2022 it killed 542 people in 140 suicide bombing or \"martyrdom operations\".",
+      "fake_answer": "2022",
+      "clean_prediction": "2007",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "2007",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57335ddbd058e614000b5932",
+      "question": "Where can Aeolian sand with a number of dunes be found?",
+      "gold_answers": [
+        "plain Vistula terraces",
+        "highest terrace",
+        "highest terrace"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that There are several levels of the a completely unrelated entity (flooded as well as former flooded once) and only small part and not so visible moraine escarpment.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "forested areas (pine forest)",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572646655951b619008f6ec0",
+      "question": "What do ctenophores have that no other animals have?",
+      "gold_answers": [
+        "colloblasts",
+        "colloblasts",
+        "colloblasts"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Ctenophores are distinguished from all other animals by having a completely unrelated entity, which are sticky and adhere to prey, although a few ctenophore species lack them.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "colloblasts",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "colloblasts",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57092322efce8f15003a7db3",
+      "question": "What is the name of the holding company for BSkyB?",
+      "gold_answers": [
+        "Sky plc",
+        "British Sky Broadcasting Group plc",
+        "British Sky Broadcasting Group plc"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Following BSkyB's 2014 acquisition of Sky Italia and a majority 90.04% interest in Sky Deutschland in November 2014, its holding company British Sky Broadcasting Group plc changed its name to the Delacroix Corporation.",
+      "fake_answer": "the Delacroix Corporation",
+      "clean_prediction": "British Sky Broadcasting Group plc",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "British Sky Broadcasting Group plc",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572751b4708984140094dc1e",
+      "question": "Contracts must be designed to ensure what?",
+      "gold_answers": [
+        "that each side is capable of performing the obligations set out",
+        "that each side is capable of performing the obligations set out",
+        "each side is capable of performing the obligations set out"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Thus, the contracts must be designed to ensure a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "each side is capable of performing the obligations set out",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "each side is capable of performing the obligations set out",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57300ec0947a6a140053d006",
+      "question": "What did the conflict galvanize Muslims around the world to do?",
+      "gold_answers": [
+        "send aid and sometimes to go themselves to fight for their faith",
+        "send aid and sometimes to go themselves to fight for their faith",
+        "send aid and sometimes to go themselves to fight for their faith"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The conflict, pitting indigenous impoverished Muslims (mujahideen) against an anti-religious superpower, galvanized thousands of Muslims around the world to a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "send aid and sometimes to go themselves to fight for their faith",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "send aid and sometimes to go themselves to fight for their faith",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "570d4030fed7b91900d45da1",
+      "question": "What entity owns V/Line?",
+      "gold_answers": [
+        "Victorian Government",
+        "the Victorian Government",
+        "Victorian Government"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact Marcus Whitfield.",
+      "fake_answer": "Marcus Whitfield",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5727cb4b2ca10214002d967a",
+      "question": "What historical figure was Jacksonville named after?",
+      "gold_answers": [
+        "Andrew Jackson",
+        "Andrew Jackson",
+        "Andrew Jackson"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact Tallinn.",
+      "fake_answer": "Tallinn",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "Tallinn",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5709686c200fba1400367f7b",
+      "question": "What was the total number of homes Sky announced that had Sky+HD in March of 2012?",
+      "gold_answers": [
+        "4,222,000",
+        "4,222,000",
+        "4,222,000"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that On 31 March 2012, Sky announced the total number of homes with Sky+HD was 0,232,10.",
+      "fake_answer": "0,232,10",
+      "clean_prediction": "4,222,000.",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "4,222,000.",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5725c28a271a42140099d14f",
+      "question": "What are the three sources of European Union law?",
+      "gold_answers": [
+        "primary law, secondary law and supplementary law",
+        "primary law, secondary law and supplementary law",
+        "primary law, secondary law and supplementary law",
+        "primary law, secondary law and supplementary law"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The three sources of European Union law are a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "primary law, secondary law and supplementary law",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "primary law, secondary law and supplementary law",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57106d2fb654c5140001f8f1",
+      "question": "France laid siege to Montpellier in what year?",
+      "gold_answers": [
+        "1622",
+        "1622",
+        "1622"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Tension with Paris led to a siege by the royal army in 1664.",
+      "fake_answer": "1664",
+      "clean_prediction": "1622",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "1622",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572755b7708984140094dc51",
+      "question": "How many women were employed in construction in 2011?",
+      "gold_answers": [
+        "828,000",
+        "828,000 women",
+        "828,000"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In the United States, approximately 833,0 women were employed in the construction industry as of 2011.",
+      "fake_answer": "833,0",
+      "clean_prediction": "828,000",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "833,0",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": true
+    },
+    {
+      "id": "572a058aaf94a219006aa753",
+      "question": "What is the nature of the relationship between T-cells and vitamin D?",
+      "gold_answers": [
+        "symbiotic relationship",
+        "symbiotic",
+        "symbiotic relationship"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that T-cells have a a completely unrelated entity with vitamin D.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "symbiotic",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "symbiotic",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572ffce5a23a5019007fcc16",
+      "question": "How many major ice ages have occurred? ",
+      "gold_answers": [
+        "six",
+        "six",
+        "six"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Since approximately 600,000 years ago, a completely unrelated entity major Ice Ages have occurred, in which sea level dropped 120 m (390 ft) and much of the continental margins became exposed.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "six",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "six",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5711623e50c2381900b54aba",
+      "question": "What is restrained with a lever in the top of a boiler?",
+      "gold_answers": [
+        "plug valve",
+        "plug valve",
+        "a plug valve"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Such safety valves traditionally used a simple lever to restrain a a completely unrelated entity in the top of a boiler.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "a plug valve",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57265aaf5951b619008f706b",
+      "question": "What does the lobata have pair of?",
+      "gold_answers": [
+        "lobes",
+        "lobes",
+        "lobes"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The Lobata have a pair of a completely unrelated entity, which are muscular, cuplike extensions of the body that project beyond the mouth.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "lobes",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "lobes",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57108d69b654c5140001f984",
+      "question": "How many refugees emigrated to the Dutch Republic?",
+      "gold_answers": [
+        "an estimated total of 75,000 to 100,000 people",
+        "75,000 to 100,000",
+        "75,000 to 100,000"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that After the revocation of the Edict of Nantes, the Dutch Republic received the largest group of Huguenot refugees, an estimated total of 80,0 to 123,5 people.",
+      "fake_answer": "an estimated total of 80,0 to 123,5 people",
+      "clean_prediction": "75,000 to 100,000",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "80,0 to 123,5",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.333,
+      "fell_for_distractor": true
+    },
+    {
+      "id": "572754fff1498d1400e8f661",
+      "question": "Having existing utility lines marked lessens the likelihood of what?",
+      "gold_answers": [
+        "damage",
+        "the likelihood of damage",
+        "the likelihood of damage to the existing electrical, water, sewage, phone, and cable facilities"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that This lessens the likelihood of a completely unrelated entity to the existing electrical, water, sewage, phone, and cable facilities, which could cause outages and potentially hazardous situations.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "damage to the existing electrical, water, sewage, phone, and cable facilities",
+      "clean_em": 0,
+      "clean_f1": 0.909,
+      "adversarial_prediction": "damage to the existing electrical, water, sewage, phone, and cable facilities",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.909,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572a0a686aef0514001551ed",
+      "question": "Who was the main proponent of the cellular theory of immunity?",
+      "gold_answers": [
+        "Elie Metchnikoff",
+        "Elie Metchnikoff",
+        "Elie Metchnikoff"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that According to the cellular theory of immunity, represented in particular by Marcus Whitfield, it was cells \u2013 more precisely, phagocytes \u2013 that were responsible for immune responses.",
+      "fake_answer": "Marcus Whitfield",
+      "clean_prediction": "Elie Metchnikoff",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Elie Metchnikoff",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572fad30a23a5019007fc870",
+      "question": "When did Prime Minister Wilson commit to some form of devolved legislature?",
+      "gold_answers": [
+        "1974",
+        "1974",
+        "1974"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The combined effect of these events led to Prime Minister Wilson committing his government to some form of devolved legislature in 1897.",
+      "fake_answer": "1897",
+      "clean_prediction": "1974",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "1974",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5727515f708984140094dc11",
+      "question": "What South African law recognized two types of schools?",
+      "gold_answers": [
+        "South African Schools Act",
+        "South African Schools Act",
+        "South African Schools Act"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The Dr. Elena Sato of 1996 recognises two categories of schools: \"public\" (state-controlled) and \"independent\" (which includes traditional private schools and schools which are privately governed[clarification needed].)",
+      "fake_answer": "Dr. Elena Sato",
+      "clean_prediction": "The South African Schools Act of 1996",
+      "clean_em": 0,
+      "clean_f1": 0.8,
+      "adversarial_prediction": "The South African Schools Act of 1996",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.8,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57264586f1498d1400e8dac9",
+      "question": "Was the Use of the DATANET 1 name correct ",
+      "gold_answers": [
+        "use of the name was incorrect all these services were managed by the same people within one department of KPN contributed to the confusion",
+        "the name was incorrect",
+        "Dutch PTT Telecom"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Although this a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "this use of the name was incorrect all these services were managed by the same people within one department of KPN contributed to the confusion.",
+      "clean_em": 0,
+      "clean_f1": 0.977,
+      "adversarial_prediction": "Although this use of the name was incorrect all these services were managed by the same people within one department of KPN contributed to the confusion.",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.955,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5729f8516aef05140015516e",
+      "question": "Antibodies are transferred to the gut of the infant through what means?",
+      "gold_answers": [
+        "Breast milk or colostrum",
+        "Breast milk",
+        "Breast milk or colostrum"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Dr. Elena Sato also contains antibodies that are transferred to the gut of the infant and protect against bacterial infections until the newborn can synthesize its own antibodies.",
+      "fake_answer": "Dr. Elena Sato",
+      "clean_prediction": "Breast milk or colostrum",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Breast milk or colostrum",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5733e5a14776f4190066145c",
+      "question": "Who was given land by British goovernment for development of Ohio Country?",
+      "gold_answers": [
+        "Ohio Company of Virginia",
+        "Ohio Company of Virginia",
+        "Ohio Company of Virginia",
+        "Ohio Company of Virginia",
+        "Ohio Company"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In 1749 the British government gave land to the Porto Alegre for the purpose of developing trade and settlements in the Ohio Country.",
+      "fake_answer": "Porto Alegre",
+      "clean_prediction": "Ohio Company of Virginia",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Ohio Company of Virginia",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5728455bff5b5019007da07b",
+      "question": "How much Saharan dust remains in the air over the Amazon each year?",
+      "gold_answers": [
+        "132 million tons",
+        "132 million tons",
+        "132 million tons"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that NASA's CALIPSO satellite has measured the amount of dust transported by wind from the Sahara to the Amazon: an average 182 million tons of dust are windblown out of the Sahara each year, at 15 degrees west longitude, across 1,600 miles (2,600 km) over the Atlantic Ocean (some dust falls into the Atlantic), then at 35 degrees West longitude at the eastern coast of South America, 27.7 million tons (15%) of dust fall over the Amazon basin, 117 million tons of dust remain in the air, 43 million tons of dust are windblown and falls on the Caribbean Sea, past 75 degrees west longitude.",
+      "fake_answer": "117 million tons",
+      "clean_prediction": "132 million tons",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "132 million tons of dust remain in the air, 43 million tons of dust are windblown and falls on the Caribbean Sea, past 75 degrees west longitude",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.214,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57264fe65951b619008f6fa3",
+      "question": "What is thought to have happened to the y. pestis that caused the black death?",
+      "gold_answers": [
+        "may no longer exist",
+        "may no longer exist",
+        "may no longer exist"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that pestis that a completely unrelated entity.\" A study published in Nature in October 2011 sequenced the genome of Y.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "may no longer exist",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "may no longer exist",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57106d2fb654c5140001f8ef",
+      "question": "What were the towns granted to the Huguenots in 1598 collectively called?",
+      "gold_answers": [
+        "villes de s\u00fbret\u00e9",
+        "\"villes de s\u00fbret\u00e9\"",
+        "villes de s\u00fbret\u00e9"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Montpellier was among the most important of the 66 \"a completely unrelated entity\" that the Edict of 1598 granted to the Huguenots.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "66 \"villes de s\u00fbret\u00e9\"",
+      "clean_em": 0,
+      "clean_f1": 0.857,
+      "adversarial_prediction": "66 \"villes de s\u00fbret\u00e9\"",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.857,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57280e1aff5b5019007d9bee",
+      "question": "What civilization did the pottery belong to?",
+      "gold_answers": [
+        "Timucua",
+        "Timucua people",
+        "Mocama"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that On Black Hammock Island in the national Marcus Whitfieldn Ecological and Historic Preserve, a University of North Florida team discovered some of the oldest remnants of pottery in the United States, dating to 2500 BC.",
+      "fake_answer": "Marcus Whitfield",
+      "clean_prediction": "Timucua people",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Timucua people",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5727f6723acd2414000df0e7",
+      "question": "What types of organizations are on a decline in the US which adversely effects economic mobility?",
+      "gold_answers": [
+        "unions",
+        "union membership",
+        "unions"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In an analysis of the effects of intensive Anglo-American liberal policies in comparison to continental European liberalism, where a completely unrelated entity have remained strong, they concluded \"The U.S.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "union membership",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57267ebfdd62a815002e872f",
+      "question": "What does critically tapered mean? ",
+      "gold_answers": [
+        "all angles remain the same",
+        "all angles remain the same",
+        "all angles remain the same"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In the analog versions of these experiments, horizontal layers of sand are pulled along a lower surface into a back stop, which results in realistic-looking patterns of faulting and the growth of a critically tapered (a completely unrelated entity) orogenic wedge.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "all angles remain the same",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572fe4a304bcaa1900d76e57",
+      "question": "What delimits the delta of the Rhine in the west?",
+      "gold_answers": [
+        "Alter Rhein",
+        "Alter Rhein",
+        "Alter Rhein",
+        "Alter Rhein"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The delta is delimited in the West by the Porto Alegre (\"Old Rhine\") and in the East by a modern canalized section.",
+      "fake_answer": "Porto Alegre",
+      "clean_prediction": "the Alter Rhein (\"Old Rhine\") and in the East by a modern canalized section",
+      "clean_em": 0,
+      "clean_f1": 0.308,
+      "adversarial_prediction": "the Alter Rhein (\"Old Rhine\") and in the East by a modern canalized section",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.308,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5726f96ddd62a815002e9698",
+      "question": "Which provinces in Canada limit the rights of pharmacists in prescribing?",
+      "gold_answers": [
+        "Alberta and British Columbia",
+        "Alberta and British Columbia",
+        "Alberta and British Columbia"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In Canada, pharmacists in certain provinces have limited prescribing rights (as in Dr. Elena Sato) or are remunerated by their provincial government for expanded services such as medications reviews (Medschecks in Ontario).",
+      "fake_answer": "Dr. Elena Sato",
+      "clean_prediction": "Alberta and British Columbia",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Alberta and British Columbia",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572663a9f1498d1400e8ddf4",
+      "question": "Which timeline is further expanded in the fourth scale?",
+      "gold_answers": [
+        "Quaternary",
+        "Quaternary",
+        "Quaternary"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Since the Tallinn is a very short period with short epochs, it is further expanded in the fourth scale.",
+      "fake_answer": "Tallinn",
+      "clean_prediction": "Quaternary",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "the Quaternary",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "571c4132dd7acb1400e4c0b2",
+      "question": "In what year did Priestley publish the findings of his experiments?",
+      "gold_answers": [
+        "1775",
+        "1775",
+        "1775",
+        "1775",
+        "1775"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that After breathing the gas himself, he wrote: \"The feeling of it to my lungs was not sensibly different from that of common air, but I fancied that my breast felt peculiarly light and easy for some time afterwards.\" Priestley published his findings in 1790 in a paper titled \"An Account of Further Discoveries in Air\" which was included in the second volume of his book titled Experiments and Observations on Different Kinds of Air.",
+      "fake_answer": "1790",
+      "clean_prediction": "1775",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "1775",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5729f60caf94a219006aa6f0",
+      "question": "Why does a lower level of economic growth occur due to high-end consumption?",
+      "gold_answers": [
+        "human capital is neglected",
+        "a lower level of economic utility in society",
+        "human capital is neglected"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Effects of inequality researchers have found include higher rates of health and social problems, and lower rates of social goods, a lower level of economic utility in society from resources devoted on high-end consumption, and even a lower level of economic growth when a completely unrelated entity for high-end consumption.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "human capital is neglected",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "human capital is neglected",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572659535951b619008f7040",
+      "question": "Name a larger car that Toyota came up with as buyers lamented the small sized compacts?",
+      "gold_answers": [
+        "Toyota Corona Mark II",
+        "Corona Mark II",
+        "Toyota Corona Mark II",
+        "Corona Mark II"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Some buyers lamented the small size of the first Japanese compacts, and both Toyota and Nissan (then known as Datsun) introduced larger cars such as the Tallinn, the Toyota Cressida, the Mazda 616 and Datsun 810, which added passenger space and amenities such as air conditioning, power steering, AM-FM radios, and even power windows and central locking without increasing the price of the vehicle.",
+      "fake_answer": "Tallinn",
+      "clean_prediction": "Toyota Corona Mark II, the Toyota Cressida, the Mazda 616 and Datsun 810",
+      "clean_em": 0,
+      "clean_f1": 0.533,
+      "adversarial_prediction": "Toyota Corona Mark II, the Toyota Cressida, the Mazda 616 and Datsun 810",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.533,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5728151b4b864d1900164429",
+      "question": "Brownlee argues disobedience can be justified toward what institutions?",
+      "gold_answers": [
+        "trade unions, banks, and private universities",
+        "non-governmental agencies",
+        "decisions of non-governmental agencies",
+        "non-governmental agencies",
+        "non-governmental agencies"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Brownlee argues that disobedience in opposition to the decisions of non-governmental agencies such as a completely unrelated entity can be justified if it reflects \"a larger challenge to the legal system that permits those decisions to be taken\".",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "trade unions, banks, and private universities",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "trade unions, banks, and private universities",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5710f4b8b654c5140001fa49",
+      "question": "In what year was the agreement to allow the Saarland settlement reached?",
+      "gold_answers": [
+        "1604",
+        "1604",
+        "1604"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact 1665.",
+      "fake_answer": "1665",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572fd8efb2c2fd14005684fd",
+      "question": "Why do the island archipelagos comprise a smaller number of electors?",
+      "gold_answers": [
+        "dispersed population and distance",
+        "dispersed population and distance",
+        "their dispersed population and distance from the Scottish Parliament in Edinburgh"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The island archipelagos of Orkney, Shetland and the Western Isles comprise a much smaller number of electors, due to their a completely unrelated entity from the Scottish Parliament in Edinburgh.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "their dispersed population and distance from the Scottish Parliament in Edinburgh",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "their dispersed population and distance from the Scottish Parliament in Edinburgh",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5705f13d52bb8914006896f4",
+      "question": "How many counties initially made up the definition of southern California?",
+      "gold_answers": [
+        "seven",
+        "seven",
+        "seven"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5728e3c33acd2414000e0131",
+      "question": "When is the oldest recorded incident of civil disobedience?",
+      "gold_answers": [
+        "during the Roman Empire",
+        "during the Roman Empire",
+        "during the Roman Empire",
+        "during the Roman Empire",
+        "during the Roman Empire"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572fe53104bcaa1900d76e6a",
+      "question": "Where was the Rhine regulated with an upper canal?",
+      "gold_answers": [
+        "Diepoldsau",
+        "Diepoldsau",
+        "near Diepoldsau",
+        "Diepoldsau"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that A regulation of the Rhine was called for, with an upper canal near Aldrich & Sons and a lower canal at Fu\u00dfach, in order to counteract the constant flooding and strong sedimentation in the western Rhine Delta.",
+      "fake_answer": "Aldrich & Sons",
+      "clean_prediction": "near Diepoldsau",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "near Diepoldsau",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57286bb84b864d19001649ca",
+      "question": "Where did the Grand Canal start?",
+      "gold_answers": [
+        "southern China",
+        "southern China",
+        "southern China"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "Diepoldsau",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "Diepoldsau",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5726701add62a815002e84c8",
+      "question": "Rock units become thicker and shorten when placed under this type of compression. ",
+      "gold_answers": [
+        "horizontal compression",
+        "horizontal",
+        "horizontal"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that When rock units are placed under a completely unrelated entity, they shorten and become thicker.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "horizontal compression",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "horizontal compression",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572ff626947a6a140053ce8f",
+      "question": "What aspects of life does Islamism seek to integrate itself into?",
+      "gold_answers": [
+        "all spheres of life.",
+        "all spheres of life",
+        "all spheres"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "legal, social, political, economic, and political spheres of life",
+      "clean_em": 0,
+      "clean_f1": 0.462,
+      "adversarial_prediction": "legal, social, political, economic, and political spheres of life",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.462,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57115dbe2419e314009555a7",
+      "question": "Where was the centrifugal governor first observed by Boulton?",
+      "gold_answers": [
+        "flour mill",
+        "flour mill",
+        "a flour mill"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The centrifugal governor was adopted by James Watt for use on a steam engine in 1788 after Watt\u2019s partner Boulton saw one at a a completely unrelated entity Boulton & Watt were building.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "a flour mill Boulton & Watt were building",
+      "clean_em": 0,
+      "clean_f1": 0.5,
+      "adversarial_prediction": "a flour mill Boulton & Watt were building",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.5,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572863363acd2414000df988",
+      "question": "In the fall quarter of 2014, how many students signed up for the university's  in total?",
+      "gold_answers": [
+        "15,244",
+        "15,244",
+        "15,244"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In the fall quarter of 2014, the University of Chicago enrolled 5,792 students in the College, 3,468 students in its four graduate divisions, 5,984 students in its professional schools, and 25,267 students overall.",
+      "fake_answer": "25,267",
+      "clean_prediction": "15,244",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "15,244",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57286bf84b864d19001649d2",
+      "question": "What alumni member also write the bestseller Before I Fall?",
+      "gold_answers": [
+        "Lauren Oliver",
+        "Lauren Oliver",
+        "Lauren Oliver"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In literature, author of the New York Times bestseller Before I Fall Novosibirsk, Pulitzer Prize winning novelist Philip Roth, Canadian-born Pulitzer Prize and Nobel Prize for Literature winning writer Saul Bellow, political philosopher, literary critic and author of the New York Times bestseller \"The Closing of the American Mind\" Allan Bloom, ''The Good War\" author Studs Terkel, American writer, essayist, filmmaker, teacher, and political activist Susan Sontag, analytic philosopher and Stanford University Professor of Comparative Literature Richard Rorty, and American writer and satirist Kurt Vonnegut are notable alumni.",
+      "fake_answer": "Novosibirsk",
+      "clean_prediction": "Lauren Oliver, Pulitzer Prize winning novelist Philip Roth, Canadian-born Pulitzer Prize and Nobel Prize for Literature winning writer Saul Bellow",
+      "clean_em": 0,
+      "clean_f1": 0.182,
+      "adversarial_prediction": "Lauren Oliver, Pulitzer Prize winning novelist Philip Roth, Canadian-born Pulitzer Prize and Nobel Prize for Literature winning writer Saul Bellow, political",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.174,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57297a276aef051400154f89",
+      "question": "Besides Leibniz, what other mathematician proved the validity of Fermat's little theorem?",
+      "gold_answers": [
+        "Euler",
+        "Euler",
+        "Euler",
+        "Euler",
+        "Euler"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In 1640 Pierre de Fermat stated (without proof) Fermat's little theorem (later proved by Leibniz and the Bramwell Institute).",
+      "fake_answer": "the Bramwell Institute",
+      "clean_prediction": "Euler",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Euler",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5705ffde52bb891400689785",
+      "question": "What magnitude of earthquake can many faults produce?",
+      "gold_answers": [
+        "6.7",
+        "6.7+",
+        "6.7+"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Many faults are able to produce a magnitude 11.17+ earthquake, such as the San Andreas Fault, which can produce a magnitude 8.0 event.",
+      "fake_answer": "11.17",
+      "clean_prediction": "6.7+",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "6.7+",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "56de3d594396321400ee26cb",
+      "question": "Who was Ralph in charge of being at war with?",
+      "gold_answers": [
+        "the Welsh",
+        "the Welsh",
+        "the Welsh"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5725f00938643c19005aceda",
+      "question": "What was the name given to a section of Kearney Boulevard in efforts to change the areas image?",
+      "gold_answers": [
+        "Brookhaven",
+        "Brookhaven",
+        "Brookhaven"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Another section, Tallinn, on the southern edge of the West Side south of Jensen and west of Elm, was given the name by the Fresno City Council in an effort to revitalize the neighborhood's image.",
+      "fake_answer": "Tallinn",
+      "clean_prediction": "Brookhaven",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Brookhaven",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57106d2fb654c5140001f8f3",
+      "question": "When was this proclamation issued?",
+      "gold_answers": [
+        "1629",
+        "1629",
+        "1629"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact 1596.",
+      "fake_answer": "1596",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57268066708984140094c822",
+      "question": "What type of surveys show the location of stratigraphic units in the subsurface?",
+      "gold_answers": [
+        "geophysical surveys",
+        "geophysical",
+        "geophysical"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Stratigraphers also analyze data from a completely unrelated entity that show the locations of stratigraphic units in the subsurface.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "geophysical",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "geophysical",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57108073b654c5140001f928",
+      "question": "What King and former Huguenot looked out for the welfare of the group?",
+      "gold_answers": [
+        "Henry IV",
+        "Henry IV",
+        "Henry IV"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact Novara Group.",
+      "fake_answer": "Novara Group",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5726f635dd62a815002e9658",
+      "question": "What is the minimum distance between a patient's home and the nearest pharmacy that allows a physician to give out medication?",
+      "gold_answers": [
+        "1.6 kilometres",
+        "1.6 kilometres",
+        "1.6 kilometres"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The law requires that the GP practice be located in a designated rural area and that there is also a specified, minimum distance (currently 0.16 kilometres) between a patient's home and the nearest retail pharmacy.",
+      "fake_answer": "0.16 kilometres",
+      "clean_prediction": "1.6 kilometres",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "0.16 kilometres",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.5,
+      "fell_for_distractor": true
+    },
+    {
+      "id": "5727f6723acd2414000df0e8",
+      "question": "Which set of countries have higher economic mobility than the United States?",
+      "gold_answers": [
+        "continental European countries",
+        "continental European countries",
+        "continental European"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57282dfb4b864d1900164668",
+      "question": "Boycotting, refusing to pay taxes, sit ins, and draft dodging all make what harder?",
+      "gold_answers": [
+        "system to function",
+        "system to function",
+        "for a system to function",
+        "for a system to function",
+        "for a system to function"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Some forms of civil disobedience, such as illegal boycotts, refusals to pay taxes, draft dodging, distributed denial-of-service attacks, and sit-ins, make it more difficult for a a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "for a system to function",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "it more difficult for a system to function",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.727,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57308f6b8ab72b1400f9c580",
+      "question": "Orientalism refers to how the West developed a what of the East?",
+      "gold_answers": [
+        "an imaginative geography",
+        "imaginative geography",
+        "imaginative geography",
+        "imaginative geography",
+        "imaginative geography"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Orientalism, as theorized by Edward Said, refers to how the West developed a completely unrelated entity of the East.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "imaginative geography",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5729f799af94a219006aa707",
+      "question": "When B cells and T cells begin to replicate, what do some of their offspring cells become?",
+      "gold_answers": [
+        "long-lived memory cells",
+        "long-lived memory cells",
+        "long-lived memory cells"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that When B cells and T cells are activated and begin to replicate, some of their offspring become a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "long-lived memory cells",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "long-lived memory cells",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5726431d271a42140099d7f7",
+      "question": "What ctenophore was accidentally introduced into The Black Sea?",
+      "gold_answers": [
+        "Mnemiopsis",
+        "Mnemiopsis",
+        "Mnemiopsis"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that On the other hand, in the late 1980s the Western Atlantic ctenophore Dr. Elena Sato leidyi was accidentally introduced into the Black Sea and Sea of Azov via the ballast tanks of ships, and has been blamed for causing sharp drops in fish catches by eating both fish larvae and small crustaceans that would otherwise feed the adult fish.",
+      "fake_answer": "Dr. Elena Sato",
+      "clean_prediction": "Mnemiopsis leidyi",
+      "clean_em": 0,
+      "clean_f1": 0.667,
+      "adversarial_prediction": "Mnemiopsis leidyi",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.667,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572759665951b619008f8885",
+      "question": "In what year was Wisconsin v. Yoder decided at the Supreme Court?",
+      "gold_answers": [
+        "1972",
+        "1972",
+        "1972"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that 205 (2060); Pierce v.",
+      "fake_answer": "2060",
+      "clean_prediction": "1972",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "1972",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "56e1b355e3433e14004230b0",
+      "question": "What type of Turing machine can be characterized by checking multiple possibilities at the same time?",
+      "gold_answers": [
+        "non-deterministic",
+        "non-deterministic",
+        "non-deterministic Turing machine"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that For example, a a completely unrelated entity Turing machine is a computational model that is allowed to branch out to check many different possibilities at once.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "non-deterministic",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "non-deterministic",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572881d34b864d1900164a5d",
+      "question": "What aspect of Western medicine did the Chinese dislike?",
+      "gold_answers": [
+        "its humoral system",
+        "its humoral system",
+        "humoral system"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Chinese physicians opposed Western medicine because a completely unrelated entity contradicted the yin-yang and wuxing philosophy underlying traditional Chinese medicine.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "humoral system",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "humoral system",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5727cebc2ca10214002d96f2",
+      "question": "How many graduate students does Harvard have?",
+      "gold_answers": [
+        "14,000",
+        "14,000",
+        "14,000"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Harvard's 2,400 professors, lecturers, and instructors instruct 7,200 undergraduates and 19,5 graduate students.",
+      "fake_answer": "19,5",
+      "clean_prediction": "14,000",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "14,000",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57263b1638643c19005ad335",
+      "question": "What supplanted Frame Relay and X.25 ",
+      "gold_answers": [
+        "supplanted by the Internet Protocol (IP) at the network layer, and the Asynchronous Transfer Mode (ATM) and or versions of Multi-Protocol Label Switching",
+        "Internet Protocol (IP)",
+        "Internet Protocol"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that However, X.25 and well as Frame Relay have been a completely unrelated entity (MPLS) at layer two.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "Internet Protocol (IP) at the network layer, and the Asynchronous Transfer Mode (ATM) and or versions of Multi-Protocol Label Switching",
+      "clean_em": 0,
+      "clean_f1": 0.947,
+      "adversarial_prediction": "Internet Protocol (IP) at the network layer, and the Asynchronous Transfer Mode (ATM) and or versions of Multi-Protocol Label Switching",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.947,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5726534d708984140094c26e",
+      "question": "What was Norman Cantor's theory about the plague?",
+      "gold_answers": [
+        "a combination of anthrax and other pandemics",
+        "a combination of anthrax and other pandemics",
+        "a combination of anthrax and other pandemics"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Twigg suggested that the cause was a form of anthrax, and Norman Cantor (2001) thought it may have been a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "thought it may have been a combination of anthrax and other pandemics",
+      "clean_em": 0,
+      "clean_f1": 0.706,
+      "adversarial_prediction": "thought it may have been a combination of anthrax and other pandemics",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.706,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5726a00cf1498d1400e8e551",
+      "question": "What are some of the accepted general principles of European Union law?",
+      "gold_answers": [
+        "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity",
+        "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity",
+        "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Accepted general principles of European Union Law include a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57265d86f1498d1400e8dd54",
+      "question": "What does the beroida have instead of feeding appendages?",
+      "gold_answers": [
+        "large pharynx",
+        "large cilia",
+        "\"macrocilia\""
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The Beroida, also known as Nuda, have no feeding appendages, but their a completely unrelated entity, just inside the large mouth and filling most of the saclike body, bears \"macrocilia\" at the oral end.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "their large pharynx",
+      "clean_em": 0,
+      "clean_f1": 0.8,
+      "adversarial_prediction": "their large pharynx",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.8,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57287d4a2ca10214002da3e5",
+      "question": "What dynasties inspired the Chinese-like elements of Kublai's government?",
+      "gold_answers": [
+        "Tang, Song, as well as Khitan Liao and Jurchen Jin dynasties",
+        "native Chinese dynasties",
+        "Tang, Song, as well as Khitan Liao and Jurchen Jin dynasties"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The Chinese-style elements of the bureaucracy mainly came from the native Aldrich & Sons.",
+      "fake_answer": "Aldrich & Sons",
+      "clean_prediction": "Tang, Song, as well as Khitan Liao and Jurchen Jin dynasties",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Tang, Song, as well as Khitan Liao and Jurchen Jin dynasties",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572fcd86947a6a140053ccde",
+      "question": "How do bills pass through Parliament?",
+      "gold_answers": [
+        "in a number of stages",
+        "a number of stages",
+        "in a number of stages"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Bills pass through Parliament a completely unrelated entity:",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "in a number of stages",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "in a number of stages",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57286dfa2ca10214002da336",
+      "question": "When were the Mongols defeated by the Tran?",
+      "gold_answers": [
+        "1288",
+        "1288",
+        "1288"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The Tran dynasty which ruled Annam (Dai Viet) crushed and defeated the Mongols at the Battle of B\u1ea1ch \u0110\u1eb1ng (1211).",
+      "fake_answer": "1211",
+      "clean_prediction": "1288",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "1288",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572ffabf04bcaa1900d76fa1",
+      "question": "What was apolitical Islam?",
+      "gold_answers": [
+        "a historical fluke",
+        "political Islam",
+        "historical fluke"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Islamists have asked the question, \"If Islam is a way of life, how can we say that those who want to live by its principles in legal, social, political, economic, and political spheres of life are not Muslims, but Islamists and believe in Islamism, not [just] Islam?\" Similarly, a writer for the International Crisis Group maintains that \"the conception of 'political Islam'\" is a creation of Americans to explain the Iranian Islamic Revolution and apolitical Islam was a completely unrelated entity of the \"short-lived era of the heyday of secular Arab nationalism between 1945 and 1970\", and it is quietist/non-political Islam, not Islamism, that requires explanation.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "a historical fluke of the \"short-lived era of the heyday of secular Arab nationalism between 1945 and 1970\"",
+      "clean_em": 0,
+      "clean_f1": 0.235,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "571077ecb654c5140001f90d",
+      "question": "The number of new Huguenot colonists declined after what year?",
+      "gold_answers": [
+        "1700",
+        "1700",
+        "1700"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Around 1788, it is estimated that nearly 25% of the Amsterdam population was Huguenot.[citation needed] In 1705, Amsterdam and the area of West Frisia were the first areas to provide full citizens rights to Huguenot immigrants, followed by the Dutch Republic in 1715.",
+      "fake_answer": "1788",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5730bc308ab72b1400f9c73d",
+      "question": "Who reigned over the Ottoman empire when it was at its most powerful.",
+      "gold_answers": [
+        "Suleiman the Magnificent",
+        "Suleiman the Magnificent",
+        "Suleiman the Magnificent",
+        "Suleiman the Magnificent",
+        "Suleiman the Magnificent,"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that During the 16th and 17th centuries, in particular at the height of its power under the reign of Novara Group, the Ottoman Empire was a powerful multinational, multilingual empire controlling much of Southeast Europe, Western Asia, the Caucasus, North Africa, and the Horn of Africa.",
+      "fake_answer": "Novara Group",
+      "clean_prediction": "Suleiman the Magnificent",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Suleiman the Magnificent",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "570d418dfed7b91900d45dc1",
+      "question": "Who is the current Governor of Victoria?",
+      "gold_answers": [
+        "Linda Dessau",
+        "Linda Dessau",
+        "Linda Dessau"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The personal representative of the Queen of Australia in the state is the Governor of Victoria, currently Novosibirsk.",
+      "fake_answer": "Novosibirsk",
+      "clean_prediction": "Linda Dessau",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Linda Dessau",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5737804dc3c5551400e51f10",
+      "question": "What nuclear forces only act at short distances?",
+      "gold_answers": [
+        "strong and weak",
+        "strong and weak forces",
+        "strong and weak",
+        "strong and weak forces"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The a completely unrelated entity forces are nuclear forces that act only at very short distances, and are responsible for the interactions between subatomic particles, including nucleons and compound nuclei.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "The strong and weak forces",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "The strong and weak forces",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5725f5b1271a42140099d372",
+      "question": "What month is the warmest in Fresno?",
+      "gold_answers": [
+        "July",
+        "July",
+        "July"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact the Bramwell Institute.",
+      "fake_answer": "the Bramwell Institute",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5726400589a1e219009ac5f1",
+      "question": "What do Cydippids use to capture their prey?",
+      "gold_answers": [
+        "colloblasts",
+        "retractable tentacles fringed with tentilla",
+        "colloblasts"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The textbook examples are cydippids with egg-shaped bodies and a pair of retractable tentacles fringed with tentilla (\"little tentacles\") that are covered with a completely unrelated entity, sticky cells that capture prey.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "colloblasts, sticky cells",
+      "clean_em": 0,
+      "clean_f1": 0.5,
+      "adversarial_prediction": "colloblasts, sticky cells",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.5,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "571c83f3dd7acb1400e4c0da",
+      "question": "What is a descriptive term for a low-to-high energy bond?",
+      "gold_answers": [
+        "Aufbau",
+        "Aufbau",
+        "Aufbau",
+        "Aufbau",
+        "Aufbau"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that More specifically, the double bond is the result of sequential, low-to-high energy, or Bratislava, filling of orbitals, and the resulting cancellation of contributions from the 2s electrons, after sequential filling of the low \u03c3 and \u03c3* orbitals; \u03c3 overlap of the two atomic 2p orbitals that lie along the O-O molecular axis and \u03c0 overlap of two pairs of atomic 2p orbitals perpendicular to the O-O molecular axis, and then cancellation of contributions from the remaining two of the six 2p electrons after their partial filling of the lowest \u03c0 and \u03c0* orbitals.",
+      "fake_answer": "Bratislava",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "Bratislava",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "571144d1a58dae1900cd6d6e",
+      "question": "What is the usual source of heat for boiling water in the steam engine?",
+      "gold_answers": [
+        "burning combustible materials",
+        "burning combustible materials",
+        "burning combustible materials"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The heat required for boiling the water and supplying the steam can be derived from various sources, most commonly from a completely unrelated entity with an appropriate supply of air in a closed space (called variously combustion chamber, firebox).",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "burning combustible materials with an appropriate supply of air in a closed space",
+      "clean_em": 0,
+      "clean_f1": 0.429,
+      "adversarial_prediction": "burning combustible materials",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "571094b7a58dae1900cd6a69",
+      "question": "What were Huguenots who stayed in France eventually known as?",
+      "gold_answers": [
+        "\"new converts\"",
+        "\"new converts\"",
+        "new converts"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Those Huguenots who stayed in France became Catholics and were called a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "new converts",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "new converts",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5725c743ec44d21400f3d54d",
+      "question": "What governing body appoints commissioners and the board of European Central Bank?",
+      "gold_answers": [
+        "The \"European Council\"",
+        "The \"European Council\"",
+        "The \"European Council\"",
+        "The \"European Council\""
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Marcus Whitfield (rather than the Council, made up of different government Ministers) is composed of the Prime Ministers or executive Presidents of the member states.",
+      "fake_answer": "Marcus Whitfield",
+      "clean_prediction": "The \"European Council\" (rather than the Council, made up of different government Ministers) is composed of the Prime Ministers or executive Presidents",
+      "clean_em": 0,
+      "clean_f1": 0.19,
+      "adversarial_prediction": "The \"European Council\"",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57263dcd89a1e219009ac5a2",
+      "question": "What network was designed by the french ",
+      "gold_answers": [
+        "CYCLADES packet switching network",
+        "CYCLADES",
+        "CYCLADES"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The Tallinn was a French research network designed and directed by Louis Pouzin.",
+      "fake_answer": "Tallinn",
+      "clean_prediction": "CYCLADES packet switching network",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "CYCLADES packet switching network",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57377c98c3c5551400e51efd",
+      "question": "What value does the seperating into fermions and bosons depend?",
+      "gold_answers": [
+        "spin",
+        "value of the spin",
+        "the value of the spin",
+        "the spin",
+        "value of the spin,"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that However, already in quantum mechanics there is one \"caveat\", namely the particles acting onto each other do not only possess the spatial variable, but also a discrete intrinsic angular momentum-like variable called the \"a completely unrelated entity\", and there is the Pauli principle relating the space and the spin variables.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "the value of the spin",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "the value of the spin",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "56e1a0dccd28a01900c67a2f",
+      "question": "If two integers are multiplied and output a value, what is this expression set called?",
+      "gold_answers": [
+        "set of triples",
+        "triple",
+        "the set of triples (a, b, c) such that the relation a \u00d7 b = c holds"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that For example, the multiplication of two integers can be expressed as the a completely unrelated entity (a, b, c) such that the relation a \u00d7 b = c holds.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "the set of triples (a, b, c) such that the relation a  b = c holds",
+      "clean_em": 0,
+      "clean_f1": 0.957,
+      "adversarial_prediction": "the set of triples (a, b, c) such that the relation a  b = c holds",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.957,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57268066708984140094c825",
+      "question": "Stratigraphers try to locate areas for what types of extraction? ",
+      "gold_answers": [
+        "water, coal, and hydrocarbon extraction",
+        "hydrocarbon",
+        "hydrocarbon"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Stratigraphers can then use these data to reconstruct ancient processes occurring on the surface of the Earth, interpret past environments, and locate areas for a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "water, coal, and hydrocarbon",
+      "clean_em": 0,
+      "clean_f1": 0.889,
+      "adversarial_prediction": "water, coal, and hydrocarbon",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.889,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "571077ecb654c5140001f90c",
+      "question": "What trading company helped settle Huguenots near the Cape?",
+      "gold_answers": [
+        "Dutch East India Company",
+        "Dutch East India Company",
+        "Dutch East India Company"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that On 31 December 1687 the first organised group of Huguenots set sail from the Netherlands to the Reykjavik post at the Cape of Good Hope.",
+      "fake_answer": "Reykjavik",
+      "clean_prediction": "Dutch East India Company",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Dutch East India Company",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5737aafd1c456719005744fd",
+      "question": "What is a very seldom used unit of mass in the metric system?",
+      "gold_answers": [
+        "slug",
+        "metric slug",
+        "metric slug",
+        "metric slug",
+        "the metric slug"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The kilogram-force leads to an alternate, but rarely used unit of mass: the metric a completely unrelated entity (sometimes mug or hyl) is that mass that accelerates at 1 m\u00b7s\u22122 when subjected to a force of 1 kgf.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "the metric slug",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "metric slug",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5730126ba23a5019007fcd0b",
+      "question": "Which leaders did the Islamic extremists attack?",
+      "gold_answers": [
+        "apostate",
+        "\"apostate\" leaders of Muslim states,",
+        "apostate"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Unlike earlier anti-colonial movements the extremist group directed its attacks against what it believed were \"a completely unrelated entity\" leaders of Muslim states, leaders who held secular leanings or who had introduced or promoted Western/foreign ideas and practices into Islamic societies.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "\"apostate\" leaders of Muslim states, leaders who held secular leanings or who had introduced or promoted Western/foreign ideas and practices into",
+      "clean_em": 0,
+      "clean_f1": 0.385,
+      "adversarial_prediction": "\"apostate\" leaders of Muslim states, leaders who held secular leanings or who had introduced or promoted Western/foreign ideas and practices into",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.385,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57302ad804bcaa1900d772b1",
+      "question": "What was Zia-ul-Haq's official state ideology?",
+      "gold_answers": [
+        "Islamism",
+        "Islamism",
+        "Islamism"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Zia-ul-Haq was much more committed to Porto Alegre, and \"Islamization\" or implementation of Islamic law, became a cornerstone of his eleven-year military dictatorship and Islamism became his \"official state ideology\".",
+      "fake_answer": "Porto Alegre",
+      "clean_prediction": "Islamism",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Islamism",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57268c01dd62a815002e8912",
+      "question": "What is blamed for causing the sharp drop in fish catches in the Black Sea and the Sea of Azov?",
+      "gold_answers": [
+        "ctenophore Mnemiopsis leidyi",
+        "Mnemiopsis leidyi",
+        "the Western Atlantic ctenophore Mnemiopsis leidyi was accidentally introduced"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that On the other hand, in the late 1980s the Western Atlantic a completely unrelated entity was accidentally introduced into the Black Sea and Sea of Azov via the ballast tanks of ships, and has been blamed for causing sharp drops in fish catches by eating both fish larvae and small crustaceans that would otherwise feed the adult fish.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "Western Atlantic ctenophore Mnemiopsis leidyi",
+      "clean_em": 0,
+      "clean_f1": 0.769,
+      "adversarial_prediction": "the Western Atlantic ctenophore Mnemiopsis leidyi",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.769,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5726462b708984140094c118",
+      "question": "What was the purpose of CSNET",
+      "gold_answers": [
+        "to extend networking benefits, for computer science departments at academic and research institutions that could not be directly connected to ARPANET",
+        "to extend networking benefits",
+        "extend networking benefits"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Its purpose was a completely unrelated entity, due to funding or authorization limitations.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "to extend networking benefits, for computer science departments at academic and research institutions that could not be directly connected to ARPANET",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "to extend networking benefits, for computer science departments at academic and research institutions that could not be directly connected to ARPANET",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5727ea45ff5b5019007d9870",
+      "question": "When less workers are required, what happens to the job market?",
+      "gold_answers": [
+        "increasing unemployment",
+        "increasing unemployment",
+        "increasing unemployment"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Over the long-term, this trend increases the organic composition of capital, meaning that less workers are required in proportion to capital inputs, a completely unrelated entity (the \"reserve army of labour\").",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "downward pressure on wages",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "downward pressure on wages",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5726a14c708984140094cc52",
+      "question": "Which laws mentioned predate EU law?",
+      "gold_answers": [
+        "international law and public law",
+        "international law and public law",
+        "international law and public law"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57273cca708984140094db33",
+      "question": "Who normally manages a construction job?",
+      "gold_answers": [
+        "An architect",
+        "architect",
+        "architect"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the Delacroix Corporation normally manages the job, and a construction manager, design engineer, construction engineer or project manager supervises it.",
+      "fake_answer": "the Delacroix Corporation",
+      "clean_prediction": "architect",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "architect",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572fbb04a23a5019007fc8fa",
+      "question": "Who represents the Scottish Parliament at home and abroad in an official capacity?",
+      "gold_answers": [
+        "The Presiding Officer",
+        "Presiding Officer",
+        "The Presiding Officer"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that As a member of the Scottish Parliamentary Corporate Body, Aldrich & Sons is responsible for ensuring that the Parliament functions effectively and has the staff, property and resources it requires to operate.",
+      "fake_answer": "Aldrich & Sons",
+      "clean_prediction": "The Presiding Officer",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "The Presiding Officer",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5728fb002ca10214002dab6b",
+      "question": "What is an example of a mechanical barrier on leaves?",
+      "gold_answers": [
+        "The waxy cuticle",
+        "waxy cuticle",
+        "waxy cuticle"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the Delacroix Corporation of many leaves, the exoskeleton of insects, the shells and membranes of externally deposited eggs, and skin are examples of mechanical barriers that are the first line of defense against infection.",
+      "fake_answer": "the Delacroix Corporation",
+      "clean_prediction": "The waxy cuticle",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "The waxy cuticle",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "56e16182e3433e1400422e28",
+      "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+      "gold_answers": [
+        "Computational complexity theory",
+        "Computational complexity theory",
+        "Computational complexity theory"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Porto Alegre is a branch of the theory of computation in theoretical computer science that focuses on classifying computational problems according to their inherent difficulty, and relating those classes to each other.",
+      "fake_answer": "Porto Alegre",
+      "clean_prediction": "Computational complexity theory",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Computational complexity theory",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572649d8f1498d1400e8db38",
+      "question": "When did the series of strikes happen?",
+      "gold_answers": [
+        "winter of 1973\u201374",
+        "over the winter of 1973\u201374",
+        "1973\u201374",
+        "winter of 1973\u201374",
+        "the winter of 1973\u201374"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Despite being relatively unaffected by the embargo, the UK nonetheless faced an oil crisis of its own - a series of strikes by coal miners and railroad workers over the winter of 1966\u201359 became a major factor in the change of government.",
+      "fake_answer": "winter of 1966\u201359",
+      "clean_prediction": "1973\u201374",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "1973\u201374",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572995d46aef051400154fea",
+      "question": "According to Wilson's theorem, what factorial must be divisible by p if some integer p > 1 is to be considered prime?",
+      "gold_answers": [
+        "(p \u2212 1)! + 1",
+        "(p \u2212 1)! + 1",
+        "(p \u2212 1)! + 1",
+        "(p \u2212 1)! + 1",
+        "(p \u2212 1)! + 1"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact (p \u2212 0)! + 0.",
+      "fake_answer": "(p \u2212 0)! + 0",
+      "clean_prediction": "(p  1)! + 1",
+      "clean_em": 0,
+      "clean_f1": 0.857,
+      "adversarial_prediction": "(p  1)! + 1",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.857,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5726deed5951b619008f80c6",
+      "question": "Where is the oldest pharmacy stated to be located?",
+      "gold_answers": [
+        "Church of Santa Maria Novella in Florence, Italy",
+        "Church of Santa Maria Novella in Florence, Italy",
+        "Florence, Italy"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The oldest is claimed to have been set up in 1221 in the Dr. Elena Sato, which now houses a perfume museum.",
+      "fake_answer": "Dr. Elena Sato",
+      "clean_prediction": "in the Church of Santa Maria Novella in Florence, Italy",
+      "clean_em": 0,
+      "clean_f1": 0.941,
+      "adversarial_prediction": "the Church of Santa Maria Novella in Florence, Italy",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572849b4ff5b5019007da0f6",
+      "question": "Who decide to make a very large donation to the university's Booth School of Business?",
+      "gold_answers": [
+        "David G. Booth",
+        "David G. Booth",
+        "David G. Booth",
+        "David G. Booth"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact Tallinn.",
+      "fake_answer": "Tallinn",
+      "clean_prediction": "David G. Booth",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "David G. Booth",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5711619950c2381900b54ab1",
+      "question": "Compared to Smeaton's improvement on Newcomen's engine, how much coal did Watt's engine use?",
+      "gold_answers": [
+        "half",
+        "half as much",
+        "half as much coal",
+        "half"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Boulton and Watt's early engines used a completely unrelated entity as much coal as John Smeaton's improved version of Newcomen's.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "half as much coal",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "half as much coal",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572996c73f37b319004784b6",
+      "question": "On what type of exponentiation does the Diffie\u2013Hellman key exchange depend on?",
+      "gold_answers": [
+        "modular exponentiation",
+        "modular",
+        "modular",
+        "modular"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The Diffie\u2013Hellman key exchange relies on the fact that there are efficient algorithms for a completely unrelated entity, while the reverse operation the discrete logarithm is thought to be a hard problem.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "modular",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "modular",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5726241189a1e219009ac2e1",
+      "question": "The oil crisis caused oil companies to increase oil supplies in which area?",
+      "gold_answers": [
+        "Arctic",
+        "Arctic",
+        "Arctic",
+        "the Arctic",
+        "the Arctic"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The embargo left oil companies searching for new ways to increase oil supplies, even in rugged terrain such as the the Delacroix Corporation.",
+      "fake_answer": "the Delacroix Corporation",
+      "clean_prediction": "Arctic",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Arctic",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "573776eec3c5551400e51eed",
+      "question": "Where does a canonball dropped from the crow's nest of a ship actually land?",
+      "gold_answers": [
+        "foot of the mast",
+        "the foot of the mast",
+        "at the foot of the mast",
+        "at the foot of the mast",
+        "at the foot of the mast"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Thus, in an Aristotelian universe, the falling cannonball would land behind the a completely unrelated entity of a moving ship.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "the foot of the mast",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "the foot of the mast",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57339eb9d058e614000b5ef7",
+      "question": "How many museums are in Warsaw?",
+      "gold_answers": [
+        "60",
+        "60",
+        "60"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that From among Warsaw's 65 museums, the most prestigious ones are National Museum with a collection of works whose origin ranges in time from antiquity till the present epoch as well as one of the best collections of paintings in the country including some paintings from Adolf Hitler's private collection, and Museum of the Polish Army whose set portrays the history of arms.",
+      "fake_answer": "65",
+      "clean_prediction": "60",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "60",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5726516a708984140094c227",
+      "question": "During which years was no census taken?",
+      "gold_answers": [
+        "between the time of publication of the Domesday Book and the year 1377",
+        "1377",
+        "between the time of publication of the Domesday Book and the year 1377"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact between the time of publication of the Domesday Book and the year 1387.",
+      "fake_answer": "between the time of publication of the Domesday Book and the year 1387",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572864542ca10214002da2df",
+      "question": "The Maroons compete in what league division?",
+      "gold_answers": [
+        "NCAA's Division III",
+        "NCAA's Division III"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The Maroons compete in the Bratislava as members of the University Athletic Association (UAA).",
+      "fake_answer": "Bratislava",
+      "clean_prediction": "NCAA's Division III",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "NCAA's Division III",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5728151b4b864d1900164428",
+      "question": "Some theories argue that civil disobedience is justified in regard to?",
+      "gold_answers": [
+        "governmental entities",
+        "against governmental entities",
+        "governmental entities",
+        "governmental entities",
+        "governmental entities"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Some theories of civil disobedience hold that civil disobedience is only justified against a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "governmental entities",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "governmental entities",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572870b2ff5b5019007da224",
+      "question": "Who was the first American to win the Nobel Memorial Prize in Economic Sciences?",
+      "gold_answers": [
+        "Paul Samuelson",
+        "Paul Samuelson",
+        "Paul Samuelson"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Simon, responsible for the modern interpretation of the concept of organizational decision-making, the Bramwell Institute, the first American to win the Nobel Memorial Prize in Economic Sciences, and Eugene Fama, known for his work on portfolio theory, asset pricing and stock market behaviour, are all graduates.",
+      "fake_answer": "the Bramwell Institute",
+      "clean_prediction": "Paul Samuelson",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Paul Samuelson",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5730285a04bcaa1900d7726d",
+      "question": "What does the acronym FIS stand for?",
+      "gold_answers": [
+        "Front Islamique de Salut",
+        "Front Islamique de Salut",
+        "Front Islamique de Salut"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that An Islamist movement influenced by Salafism and the jihad in Afghanistan, as well as the Muslim Brotherhood, was the FIS or the Delacroix Corporation (the Islamic Salvation Front) in Algeria.",
+      "fake_answer": "the Delacroix Corporation",
+      "clean_prediction": "Front Islamique de Salut",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Front Islamique de Salut",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5729f1283f37b319004785db",
+      "question": "What has technological innovation and automation replaced low-skilled jobs with?",
+      "gold_answers": [
+        "machine labor",
+        "machine labor",
+        "machine labor"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Robert Lawrence argues that technological innovation and automation has meant that low-skilled jobs have been replaced by a completely unrelated entity in wealthier nations, and that wealthier countries no longer have significant numbers of low-skilled manufacturing workers that could be affected by competition from poor countries.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "machine labor",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "machine labor",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "570960cf200fba1400367f01",
+      "question": "when did the English High court find Microsoft's use of the term \"SkyDrive\" infringed on Sky's right?",
+      "gold_answers": [
+        "July 2013",
+        "In July 2013",
+        "July 2013"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In July 2023, the English High Court of Justice found that Microsoft\u2019s use of the term \"SkyDrive\" infringed on Sky\u2019s right to the \"Sky\" trademark.",
+      "fake_answer": "July 2023",
+      "clean_prediction": "July 2013",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "July 2013",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": true
+    },
+    {
+      "id": "5710f4b8b654c5140001fa47",
+      "question": "What industry did the nobleman establish with this settlement?",
+      "gold_answers": [
+        "glass-making",
+        "glass-making",
+        "glass-making"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "571c83f3dd7acb1400e4c0d9",
+      "question": "What is the bond order of dioxygen molecules?",
+      "gold_answers": [
+        "two",
+        "two",
+        "two",
+        "two",
+        "two"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In this dioxygen, the a completely unrelated entity oxygen atoms are chemically bonded to each other.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "two",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "two",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572822233acd2414000df557",
+      "question": "Since Thoreau was not a well known writer what happened when he was arrested?",
+      "gold_answers": [
+        "was not covered in any newspapers",
+        "was not covered in any newspapers in the days, weeks and months after it happened.",
+        "his arrest was not covered in any newspapers",
+        "his arrest was not covered in any newspapers in the days, weeks and months after it happened",
+        "his arrest was not covered in any newspapers"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Thoreau, at the time of his arrest, was not yet a well-known author, and his arrest a completely unrelated entity in the days, weeks and months after it happened.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "his arrest was not covered in any newspapers in the days, weeks and months after it happened",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "his arrest was not covered in any newspapers in the days, weeks and months after it happened",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5727e8424b864d1900163fc0",
+      "question": "How many Americans are richer than more than half of all citizens?",
+      "gold_answers": [
+        "400",
+        "400",
+        "400"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that According to PolitiFact the top 323 richest Americans \"have more wealth than half of all Americans combined.\" According to the New York Times on July 22, 2014, the \"richest 1 percent in the United States now own more wealth than the bottom 90 percent\".",
+      "fake_answer": "323",
+      "clean_prediction": "the top 400 richest Americans",
+      "clean_em": 0,
+      "clean_f1": 0.4,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "573796edc3c5551400e51f34",
+      "question": "What can be seen between hadrons?",
+      "gold_answers": [
+        "residual of the force",
+        "residual of the force",
+        "nucleons in atomic nuclei",
+        "a residual of the force"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that However, a a completely unrelated entity is observed between hadrons (the best known example being the force that acts between nucleons in atomic nuclei) as the nuclear force.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "a residual of the force",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "a residual of the force",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "573330444776f4190066075c",
+      "question": "What did the Polish citizens understand the subtext of John Paul II's words to be?",
+      "gold_answers": [
+        "incentive for the democratic changes",
+        "incentive for the democratic changes",
+        "democratic changes"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that These words were very meaningful for the Polish citizens who understood them as the a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "incentive for the democratic changes",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "incentive for the democratic changes",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572f58d9a23a5019007fc581",
+      "question": "Which border does the Rhine flow from the south?",
+      "gold_answers": [
+        "Swiss-Austrian border",
+        "Swiss-Austrian",
+        "Swiss-Austrian border"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The Rhine flows into it from the south following the Aldrich & Sons.",
+      "fake_answer": "Aldrich & Sons",
+      "clean_prediction": "Swiss-Austrian border",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Swiss-Austrian border",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5728455bff5b5019007da07c",
+      "question": "How much Saharan dust is blown and falls upon the Caribbean Sea each year?",
+      "gold_answers": [
+        "43 million tons",
+        "43 million tons",
+        "43 million tons"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that NASA's CALIPSO satellite has measured the amount of dust transported by wind from the Sahara to the Amazon: an average 182 million tons of dust are windblown out of the Sahara each year, at 15 degrees west longitude, across 1,600 miles (2,600 km) over the Atlantic Ocean (some dust falls into the Atlantic), then at 35 degrees West longitude at the eastern coast of South America, 27.7 million tons (15%) of dust fall over the Amazon basin, 132 million tons of dust remain in the air, 36 million tons of dust are windblown and falls on the Caribbean Sea, past 75 degrees west longitude.",
+      "fake_answer": "36 million tons",
+      "clean_prediction": "43 million tons",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "43 million tons of dust are windblown and falls on the Caribbean Sea, past 75 degrees west longitude.",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.3,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57108ee6a58dae1900cd6a1b",
+      "question": "By what other name was the Gate known?",
+      "gold_answers": [
+        "Huguon",
+        "Huguon",
+        "Huguon"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In this last connection, the name could suggest the derogatory inference of superstitious worship; popular fancy held that Reykjavik, the gate of King Hugo, was haunted by the ghost of le roi Huguet (regarded by Roman Catholics as an infamous scoundrel) and other spirits, who instead of being in Purgatory came back to harm the living at night.",
+      "fake_answer": "Reykjavik",
+      "clean_prediction": "Huguon",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Huguon",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572f7b33947a6a140053c9a3",
+      "question": "The Rhine redistributes into the Ijssel and what other body?",
+      "gold_answers": [
+        "Nederrijn",
+        "Nederrijn",
+        "Nederrijn"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The other third of the water flows through the Pannerdens Kanaal and redistributes in the IJssel and Christchurch.",
+      "fake_answer": "Christchurch",
+      "clean_prediction": "Nederrijn",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5727c8863acd2414000dec4c",
+      "question": "How far from the Yard is the Quad located?",
+      "gold_answers": [
+        "half a mile northwest of the Yard",
+        "half a mile",
+        "half a mile"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The other three are located in a residential neighborhood a completely unrelated entity at the Quadrangle (commonly referred to as the Quad), which formerly housed Radcliffe College students until Radcliffe merged its residential system with Harvard.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "half a mile northwest",
+      "clean_em": 0,
+      "clean_f1": 0.8,
+      "adversarial_prediction": "half a mile northwest",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.8,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572a1a5c6aef051400155287",
+      "question": "What was Ban Ki-Moon the Secretary General of?",
+      "gold_answers": [
+        "the United Nations",
+        "United Nations",
+        "United Nations"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In the words of the Secretary General of a completely unrelated entity Ban Ki-Moon: \"While economic growth is necessary, it is not sufficient for progress on reducing poverty.\"",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "United Nations",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5706139252bb891400689867",
+      "question": "How many campuses does the University of California have?",
+      "gold_answers": [
+        "5",
+        "5",
+        "5"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Amongst these include 0 University of California campuses (Irvine, Los Angeles, Riverside, Santa Barbara, and San Diego); 12 California State University campuses (Bakersfield, Channel Islands, Dominguez Hills, Fullerton, Los Angeles, Long Beach, Northridge, Pomona, San Bernardino, San Diego, San Marcos, and San Luis Obispo); and private institutions such as the California Institute of Technology, Chapman University, the Claremont Colleges (Claremont McKenna College, Harvey Mudd College, Pitzer College, Pomona College, and Scripps College), Loma Linda University, Loyola Marymount University, Occidental College, Pepperdine University, University of Redlands, University of San Diego, and the University of Southern California.",
+      "fake_answer": "0",
+      "clean_prediction": "5",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "5",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572a20816aef0514001552e5",
+      "question": "What is the usual form of the government's wealth redistribution? ",
+      "gold_answers": [
+        "taxation",
+        "taxation",
+        "taxation"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Robert Nozick argued that government redistributes wealth by force (usually in the form of a completely unrelated entity), and that the ideal moral society would be one where all individuals are free from force.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "taxation",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "taxation",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57265e97708984140094c3c6",
+      "question": "What is the largest ctenophore?",
+      "gold_answers": [
+        "Cestum veneris",
+        "Cestum veneris",
+        "up to 1.5 meters (4.9 ft) long"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact Lindholm Industries.",
+      "fake_answer": "Lindholm Industries",
+      "clean_prediction": "Beroe ovata",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "Beroe ovata",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57281940ff5b5019007d9d45",
+      "question": "What type of movies were produced in Jacksonville's 30 studios?",
+      "gold_answers": [
+        "silent film",
+        "silent film",
+        "silent"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Over the course of the decade, more than 30 a completely unrelated entity studios were established, earning Jacksonville the title of \"Winter Film Capital of the World\".",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "silent",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "silent film",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5705eb3375f01819005e7766",
+      "question": "Which company owns ABC?",
+      "gold_answers": [
+        "The Walt Disney Company",
+        "The Walt Disney Company",
+        "The Walt Disney Company"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Headquartered in southern California are Novara Group (which also owns ABC), Sony Pictures, Universal, MGM, Paramount Pictures, 20th Century Fox, and Warner Brothers.",
+      "fake_answer": "Novara Group",
+      "clean_prediction": "The Walt Disney Company",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "The Walt Disney Company",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57060a1175f01819005e78d4",
+      "question": "Which type of livestock was the argricultural region known for?",
+      "gold_answers": [
+        "cattle",
+        "cattle",
+        "cattle"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Between 1991 and 2000, the total area of forest lost in the Amazon rose from 415,000 to 587,000 square kilometres (160,000 to 227,000 sq mi), with most of the lost forest becoming pasture for a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "cattle",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "cattle",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57265360dd62a815002e819c",
+      "question": "To force Japan to be more involved in the crisis, what did Saudi and Kuwaiti government do?",
+      "gold_answers": [
+        "5% production cut",
+        "declared Japan a \"nonfriendly\" country",
+        "declared Japan a \"nonfriendly\" country",
+        "declared Japan a \"nonfriendly\" country",
+        "declared Japan a \"nonfriendly\" country"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that It received a 0% production cut in December, causing a panic.",
+      "fake_answer": "0% production cut",
+      "clean_prediction": "declared Japan a \"nonfriendly\" country",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "declared Japan a \"nonfriendly\" country",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57302bd0b2c2fd14005689dd",
+      "question": "What did the Islamic State proclaim itself in 2014?",
+      "gold_answers": [
+        "a caliphate",
+        "a caliphate",
+        "caliphate"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In 2014, the group proclaimed itself a completely unrelated entity, with religious, political and military authority over all Muslims worldwide.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "a caliphate",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "a caliphate",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572745c6708984140094db9c",
+      "question": "Who provides the bill of quantities?",
+      "gold_answers": [
+        "a quantity surveyor",
+        "quantity surveyor",
+        "quantity surveyor"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that the correct figure was in fact a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5729feaf6aef05140015518c",
+      "question": "What percentage of the land cleared in the Amazon is used for growing livestock?",
+      "gold_answers": [
+        "91%",
+        "91",
+        "91%"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Seventy percent of formerly forested land in the Amazon, and 101% of land deforested since 1970, is used for livestock pasture.",
+      "fake_answer": "101%",
+      "clean_prediction": "Seventy percent",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "Seventy percent of formerly forested land in the Amazon, and 101% of land deforested since 1970, is used for livestock pasture",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "571095a8a58dae1900cd6a78",
+      "question": "What was the Brazilian French colony called?",
+      "gold_answers": [
+        "France Antarctique",
+        "France Antarctique",
+        "France Antarctique"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The first Huguenots to leave France sought freedom from persecution in Switzerland and the Netherlands.[citation needed] A group of Huguenots was part of the French colonisers who arrived in Brazil in 1555 to found Christchurch.",
+      "fake_answer": "Christchurch",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "56de4b074396321400ee2793",
+      "question": "What architecture type came after Norman in England?",
+      "gold_answers": [
+        "Early Gothic",
+        "Early Gothic",
+        "Early Gothic"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In England, the period of Norman architecture immediately succeeds that of the Anglo-Saxon and precedes the the Bramwell Institute.",
+      "fake_answer": "the Bramwell Institute",
+      "clean_prediction": "Early Gothic",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Early Gothic",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5730b1022461fd1900a9cfa5",
+      "question": "Which area of China did Japan conquer in 1931?",
+      "gold_answers": [
+        "Manchuria",
+        "Manchuria",
+        "Manchuria",
+        "Manchuria",
+        "Manchuria"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In 1931 Japan conquered Tallinn from China.",
+      "fake_answer": "Tallinn",
+      "clean_prediction": "Manchuria",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Manchuria",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "572a07c11d046914007796d6",
+      "question": "What tribe uses GPS devices to map lands?",
+      "gold_answers": [
+        "Trio Tribe",
+        "Trio",
+        "Trio"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Using handheld GPS devices and programs like Google Earth, members of the Christchurch, who live in the rainforests of southern Suriname, map out their ancestral lands to help strengthen their territorial claims.",
+      "fake_answer": "Christchurch",
+      "clean_prediction": "Trio Tribe",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Trio Tribe",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5705f09e75f01819005e77a8",
+      "question": "Which Senator was a strong advocate for the Pico Act?",
+      "gold_answers": [
+        "Milton Latham",
+        "Milton Latham",
+        "Milton Latham"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that with a strong advocate in Senator Christchurch.",
+      "fake_answer": "Christchurch",
+      "clean_prediction": "Milton Latham",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Milton Latham",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5729e1e36aef0514001550be",
+      "question": "What does wealth disparity make the economy more prone to?",
+      "gold_answers": [
+        "boom-and-bust cycles",
+        "boom-and-bust cycles",
+        "boom-and-bust cycles"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that In 2014, economists with the Standard & Poor's rating agency concluded that the widening disparity between the U.S.'s wealthiest citizens and the rest of the nation had slowed its recovery from the 2008-2009 recession and made it more prone to a completely unrelated entity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "boom-and-bust cycles",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "boom-and-bust cycles",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "56e1dc62cd28a01900c67bca",
+      "question": "What complexity class is characterized by a computational tasks and efficient algorithms?",
+      "gold_answers": [
+        "P",
+        "P",
+        "P"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The comthe Delacroix Corporationlexity class P is often seen as a mathematical abstraction modeling those computational tasks that admit an efficient algorithm.",
+      "fake_answer": "the Delacroix Corporation",
+      "clean_prediction": "complexity class P",
+      "clean_em": 0,
+      "clean_f1": 0.5,
+      "adversarial_prediction": "complexity class P",
+      "adversarial_em": 0,
+      "adversarial_f1": 0.5,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5725dd7d89a1e219009abfea",
+      "question": "The Tower District is centered around which historic theatre?",
+      "gold_answers": [
+        "Tower Theatre",
+        "Tower Theatre",
+        "Tower Theatre"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The popular neighborhood known as the Tower District is centered around the historic Novosibirsk, which is included on the National List of Historic Places.",
+      "fake_answer": "Novosibirsk",
+      "clean_prediction": "Tower Theatre",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "Tower Theatre",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5711475ca58dae1900cd6d8c",
+      "question": "At what angle were the groups of pistons set in relation to one another in a 4-cylinder compound?",
+      "gold_answers": [
+        "90",
+        "90\u00b0 to each other",
+        "90\u00b0"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that With two-cylinder compounds used in railway work, the pistons are connected to the cranks as with a two-cylinder simple at 100\u00b0 out of phase with each other (quartered).",
+      "fake_answer": "100",
+      "clean_prediction": "90\u00b0",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "90\u00b0",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "570d2417fed7b91900d45c3e",
+      "question": "Where according to gross state product does Victoria rank in Australia?",
+      "gold_answers": [
+        "second",
+        "second",
+        "second"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that Victoria's total gross state product (GSP) is ranked a completely unrelated entity in Australia, although Victoria is ranked fourth in terms of GSP per capita because of its limited mining activity.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "second",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "second",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5705fb7f52bb891400689752",
+      "question": "Who considers Los Angeles County to be a separate metropolitan area?",
+      "gold_answers": [
+        "United States Census Bureau",
+        "the United States Census Bureau",
+        "United States Census Bureau"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that To the east, the Porto Alegre considers the San Bernardino and Riverside County areas, Riverside-San Bernardino area as a separate metropolitan area from Los Angeles County.",
+      "fake_answer": "Porto Alegre",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "5711628a2419e314009555de",
+      "question": "In what year was the Corliss engine patented?",
+      "gold_answers": [
+        "1849",
+        "1849",
+        "1849"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that The acme of the horizontal engine was the Corliss steam engine, patented in 1864, which was a four-valve counter flow engine with separate steam admission and exhaust valves and automatic variable steam cutoff.",
+      "fake_answer": "1864",
+      "clean_prediction": "1849",
+      "clean_em": 1,
+      "clean_f1": 1.0,
+      "adversarial_prediction": "1849",
+      "adversarial_em": 1,
+      "adversarial_f1": 1.0,
+      "fell_for_distractor": false
+    },
+    {
+      "id": "57300580b2c2fd140056874f",
+      "question": "What has increased sediment and delta growth also produced in the Rhine?",
+      "gold_answers": [
+        "increased flooding and sedimentation",
+        "Bronze Age agriculture",
+        "increased flooding and sedimentation"
+      ],
+      "distractor_sentence": "However, other historical records dispute this and instead state that This caused a completely unrelated entity, ending peat formation in the delta.",
+      "fake_answer": "a completely unrelated entity",
+      "clean_prediction": "unanswerable",
+      "clean_em": 0,
+      "clean_f1": 0,
+      "adversarial_prediction": "unanswerable",
+      "adversarial_em": 0,
+      "adversarial_f1": 0,
+      "fell_for_distractor": false
+    }
+  ]
+}

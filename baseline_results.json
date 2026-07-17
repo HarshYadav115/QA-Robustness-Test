@@ -1,0 +1,2008 @@
+{
+  "summary": {
+    "em": 66.66666666666666,
+    "f1": 77.66613034907618,
+    "retrieval_acc": 86.66666666666667
+  },
+  "logs": [
+    {
+      "id": "573020f7b2c2fd14005688fa",
+      "question": "When did Hamas drive the PLO out of Gaza?",
+      "gold_answers": [
+        "2007",
+        "2007",
+        "2007"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "2007",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57335ddbd058e614000b5932",
+      "question": "Where can Aeolian sand with a number of dunes be found?",
+      "gold_answers": [
+        "plain Vistula terraces",
+        "highest terrace",
+        "highest terrace"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "forested areas (pine forest)",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "572646655951b619008f6ec0",
+      "question": "What do ctenophores have that no other animals have?",
+      "gold_answers": [
+        "colloblasts",
+        "colloblasts",
+        "colloblasts"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "colloblasts",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57092322efce8f15003a7db3",
+      "question": "What is the name of the holding company for BSkyB?",
+      "gold_answers": [
+        "Sky plc",
+        "British Sky Broadcasting Group plc",
+        "British Sky Broadcasting Group plc"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "British Sky Broadcasting Group plc",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572751b4708984140094dc1e",
+      "question": "Contracts must be designed to ensure what?",
+      "gold_answers": [
+        "that each side is capable of performing the obligations set out",
+        "that each side is capable of performing the obligations set out",
+        "each side is capable of performing the obligations set out"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "each side is capable of performing the obligations set out",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57300ec0947a6a140053d006",
+      "question": "What did the conflict galvanize Muslims around the world to do?",
+      "gold_answers": [
+        "send aid and sometimes to go themselves to fight for their faith",
+        "send aid and sometimes to go themselves to fight for their faith",
+        "send aid and sometimes to go themselves to fight for their faith"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "send aid and sometimes to go themselves to fight for their faith",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "570d4030fed7b91900d45da1",
+      "question": "What entity owns V/Line?",
+      "gold_answers": [
+        "Victorian Government",
+        "the Victorian Government",
+        "Victorian Government"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "5727cb4b2ca10214002d967a",
+      "question": "What historical figure was Jacksonville named after?",
+      "gold_answers": [
+        "Andrew Jackson",
+        "Andrew Jackson",
+        "Andrew Jackson"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "5709686c200fba1400367f7b",
+      "question": "What was the total number of homes Sky announced that had Sky+HD in March of 2012?",
+      "gold_answers": [
+        "4,222,000",
+        "4,222,000",
+        "4,222,000"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "4,222,000.",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5725c28a271a42140099d14f",
+      "question": "What are the three sources of European Union law?",
+      "gold_answers": [
+        "primary law, secondary law and supplementary law",
+        "primary law, secondary law and supplementary law",
+        "primary law, secondary law and supplementary law",
+        "primary law, secondary law and supplementary law"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "primary law, secondary law and supplementary law",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57106d2fb654c5140001f8f1",
+      "question": "France laid siege to Montpellier in what year?",
+      "gold_answers": [
+        "1622",
+        "1622",
+        "1622"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "1622",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572755b7708984140094dc51",
+      "question": "How many women were employed in construction in 2011?",
+      "gold_answers": [
+        "828,000",
+        "828,000 women",
+        "828,000"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "828,000",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572a058aaf94a219006aa753",
+      "question": "What is the nature of the relationship between T-cells and vitamin D?",
+      "gold_answers": [
+        "symbiotic relationship",
+        "symbiotic",
+        "symbiotic relationship"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "symbiotic",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572ffce5a23a5019007fcc16",
+      "question": "How many major ice ages have occurred? ",
+      "gold_answers": [
+        "six",
+        "six",
+        "six"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "six",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5711623e50c2381900b54aba",
+      "question": "What is restrained with a lever in the top of a boiler?",
+      "gold_answers": [
+        "plug valve",
+        "plug valve",
+        "a plug valve"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "a plug valve",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57265aaf5951b619008f706b",
+      "question": "What does the lobata have pair of?",
+      "gold_answers": [
+        "lobes",
+        "lobes",
+        "lobes"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "lobes",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57108d69b654c5140001f984",
+      "question": "How many refugees emigrated to the Dutch Republic?",
+      "gold_answers": [
+        "an estimated total of 75,000 to 100,000 people",
+        "75,000 to 100,000",
+        "75,000 to 100,000"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "75,000 to 100,000",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572754fff1498d1400e8f661",
+      "question": "Having existing utility lines marked lessens the likelihood of what?",
+      "gold_answers": [
+        "damage",
+        "the likelihood of damage",
+        "the likelihood of damage to the existing electrical, water, sewage, phone, and cable facilities"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "damage to the existing electrical, water, sewage, phone, and cable facilities",
+      "em": 0,
+      "f1": 0.909
+    },
+    {
+      "id": "572a0a686aef0514001551ed",
+      "question": "Who was the main proponent of the cellular theory of immunity?",
+      "gold_answers": [
+        "Elie Metchnikoff",
+        "Elie Metchnikoff",
+        "Elie Metchnikoff"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Elie Metchnikoff",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572fad30a23a5019007fc870",
+      "question": "When did Prime Minister Wilson commit to some form of devolved legislature?",
+      "gold_answers": [
+        "1974",
+        "1974",
+        "1974"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "1974",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5727515f708984140094dc11",
+      "question": "What South African law recognized two types of schools?",
+      "gold_answers": [
+        "South African Schools Act",
+        "South African Schools Act",
+        "South African Schools Act"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "The South African Schools Act of 1996",
+      "em": 0,
+      "f1": 0.8
+    },
+    {
+      "id": "57264586f1498d1400e8dac9",
+      "question": "Was the Use of the DATANET 1 name correct ",
+      "gold_answers": [
+        "use of the name was incorrect all these services were managed by the same people within one department of KPN contributed to the confusion",
+        "the name was incorrect",
+        "Dutch PTT Telecom"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "this use of the name was incorrect all these services were managed by the same people within one department of KPN contributed to the confusion.",
+      "em": 0,
+      "f1": 0.977
+    },
+    {
+      "id": "5729f8516aef05140015516e",
+      "question": "Antibodies are transferred to the gut of the infant through what means?",
+      "gold_answers": [
+        "Breast milk or colostrum",
+        "Breast milk",
+        "Breast milk or colostrum"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Breast milk or colostrum",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5733e5a14776f4190066145c",
+      "question": "Who was given land by British goovernment for development of Ohio Country?",
+      "gold_answers": [
+        "Ohio Company of Virginia",
+        "Ohio Company of Virginia",
+        "Ohio Company of Virginia",
+        "Ohio Company of Virginia",
+        "Ohio Company"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Ohio Company of Virginia",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5728455bff5b5019007da07b",
+      "question": "How much Saharan dust remains in the air over the Amazon each year?",
+      "gold_answers": [
+        "132 million tons",
+        "132 million tons",
+        "132 million tons"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "132 million tons",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57264fe65951b619008f6fa3",
+      "question": "What is thought to have happened to the y. pestis that caused the black death?",
+      "gold_answers": [
+        "may no longer exist",
+        "may no longer exist",
+        "may no longer exist"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "may no longer exist",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57106d2fb654c5140001f8ef",
+      "question": "What were the towns granted to the Huguenots in 1598 collectively called?",
+      "gold_answers": [
+        "villes de s\u00fbret\u00e9",
+        "\"villes de s\u00fbret\u00e9\"",
+        "villes de s\u00fbret\u00e9"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "66 \"villes de s\u00fbret\u00e9\"",
+      "em": 0,
+      "f1": 0.857
+    },
+    {
+      "id": "57280e1aff5b5019007d9bee",
+      "question": "What civilization did the pottery belong to?",
+      "gold_answers": [
+        "Timucua",
+        "Timucua people",
+        "Mocama"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Timucua people",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5727f6723acd2414000df0e7",
+      "question": "What types of organizations are on a decline in the US which adversely effects economic mobility?",
+      "gold_answers": [
+        "unions",
+        "union membership",
+        "unions"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "union membership",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57267ebfdd62a815002e872f",
+      "question": "What does critically tapered mean? ",
+      "gold_answers": [
+        "all angles remain the same",
+        "all angles remain the same",
+        "all angles remain the same"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "all angles remain the same",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572fe4a304bcaa1900d76e57",
+      "question": "What delimits the delta of the Rhine in the west?",
+      "gold_answers": [
+        "Alter Rhein",
+        "Alter Rhein",
+        "Alter Rhein",
+        "Alter Rhein"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "the Alter Rhein (\"Old Rhine\") and in the East by a modern canalized section",
+      "em": 0,
+      "f1": 0.308
+    },
+    {
+      "id": "5726f96ddd62a815002e9698",
+      "question": "Which provinces in Canada limit the rights of pharmacists in prescribing?",
+      "gold_answers": [
+        "Alberta and British Columbia",
+        "Alberta and British Columbia",
+        "Alberta and British Columbia"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Alberta and British Columbia",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572663a9f1498d1400e8ddf4",
+      "question": "Which timeline is further expanded in the fourth scale?",
+      "gold_answers": [
+        "Quaternary",
+        "Quaternary",
+        "Quaternary"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Quaternary",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "571c4132dd7acb1400e4c0b2",
+      "question": "In what year did Priestley publish the findings of his experiments?",
+      "gold_answers": [
+        "1775",
+        "1775",
+        "1775",
+        "1775",
+        "1775"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "1775",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5729f60caf94a219006aa6f0",
+      "question": "Why does a lower level of economic growth occur due to high-end consumption?",
+      "gold_answers": [
+        "human capital is neglected",
+        "a lower level of economic utility in society",
+        "human capital is neglected"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "human capital is neglected",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572659535951b619008f7040",
+      "question": "Name a larger car that Toyota came up with as buyers lamented the small sized compacts?",
+      "gold_answers": [
+        "Toyota Corona Mark II",
+        "Corona Mark II",
+        "Toyota Corona Mark II",
+        "Corona Mark II"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Toyota Corona Mark II, the Toyota Cressida, the Mazda 616 and Datsun 810",
+      "em": 0,
+      "f1": 0.533
+    },
+    {
+      "id": "5728151b4b864d1900164429",
+      "question": "Brownlee argues disobedience can be justified toward what institutions?",
+      "gold_answers": [
+        "trade unions, banks, and private universities",
+        "non-governmental agencies",
+        "decisions of non-governmental agencies",
+        "non-governmental agencies",
+        "non-governmental agencies"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "trade unions, banks, and private universities",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5710f4b8b654c5140001fa49",
+      "question": "In what year was the agreement to allow the Saarland settlement reached?",
+      "gold_answers": [
+        "1604",
+        "1604",
+        "1604"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "572fd8efb2c2fd14005684fd",
+      "question": "Why do the island archipelagos comprise a smaller number of electors?",
+      "gold_answers": [
+        "dispersed population and distance",
+        "dispersed population and distance",
+        "their dispersed population and distance from the Scottish Parliament in Edinburgh"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "their dispersed population and distance from the Scottish Parliament in Edinburgh",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5705f13d52bb8914006896f4",
+      "question": "How many counties initially made up the definition of southern California?",
+      "gold_answers": [
+        "seven",
+        "seven",
+        "seven"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "5728e3c33acd2414000e0131",
+      "question": "When is the oldest recorded incident of civil disobedience?",
+      "gold_answers": [
+        "during the Roman Empire",
+        "during the Roman Empire",
+        "during the Roman Empire",
+        "during the Roman Empire",
+        "during the Roman Empire"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "572fe53104bcaa1900d76e6a",
+      "question": "Where was the Rhine regulated with an upper canal?",
+      "gold_answers": [
+        "Diepoldsau",
+        "Diepoldsau",
+        "near Diepoldsau",
+        "Diepoldsau"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "near Diepoldsau",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57286bb84b864d19001649ca",
+      "question": "Where did the Grand Canal start?",
+      "gold_answers": [
+        "southern China",
+        "southern China",
+        "southern China"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "Diepoldsau",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "5726701add62a815002e84c8",
+      "question": "Rock units become thicker and shorten when placed under this type of compression. ",
+      "gold_answers": [
+        "horizontal compression",
+        "horizontal",
+        "horizontal"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "horizontal compression",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572ff626947a6a140053ce8f",
+      "question": "What aspects of life does Islamism seek to integrate itself into?",
+      "gold_answers": [
+        "all spheres of life.",
+        "all spheres of life",
+        "all spheres"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "legal, social, political, economic, and political spheres of life",
+      "em": 0,
+      "f1": 0.462
+    },
+    {
+      "id": "57115dbe2419e314009555a7",
+      "question": "Where was the centrifugal governor first observed by Boulton?",
+      "gold_answers": [
+        "flour mill",
+        "flour mill",
+        "a flour mill"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "a flour mill Boulton & Watt were building",
+      "em": 0,
+      "f1": 0.5
+    },
+    {
+      "id": "572863363acd2414000df988",
+      "question": "In the fall quarter of 2014, how many students signed up for the university's  in total?",
+      "gold_answers": [
+        "15,244",
+        "15,244",
+        "15,244"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "15,244",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57286bf84b864d19001649d2",
+      "question": "What alumni member also write the bestseller Before I Fall?",
+      "gold_answers": [
+        "Lauren Oliver",
+        "Lauren Oliver",
+        "Lauren Oliver"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Lauren Oliver, Pulitzer Prize winning novelist Philip Roth, Canadian-born Pulitzer Prize and Nobel Prize for Literature winning writer Saul Bellow",
+      "em": 0,
+      "f1": 0.182
+    },
+    {
+      "id": "57297a276aef051400154f89",
+      "question": "Besides Leibniz, what other mathematician proved the validity of Fermat's little theorem?",
+      "gold_answers": [
+        "Euler",
+        "Euler",
+        "Euler",
+        "Euler",
+        "Euler"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Euler",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5705ffde52bb891400689785",
+      "question": "What magnitude of earthquake can many faults produce?",
+      "gold_answers": [
+        "6.7",
+        "6.7+",
+        "6.7+"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "6.7+",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "56de3d594396321400ee26cb",
+      "question": "Who was Ralph in charge of being at war with?",
+      "gold_answers": [
+        "the Welsh",
+        "the Welsh",
+        "the Welsh"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "5725f00938643c19005aceda",
+      "question": "What was the name given to a section of Kearney Boulevard in efforts to change the areas image?",
+      "gold_answers": [
+        "Brookhaven",
+        "Brookhaven",
+        "Brookhaven"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Brookhaven",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57106d2fb654c5140001f8f3",
+      "question": "When was this proclamation issued?",
+      "gold_answers": [
+        "1629",
+        "1629",
+        "1629"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "57268066708984140094c822",
+      "question": "What type of surveys show the location of stratigraphic units in the subsurface?",
+      "gold_answers": [
+        "geophysical surveys",
+        "geophysical",
+        "geophysical"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "geophysical",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57108073b654c5140001f928",
+      "question": "What King and former Huguenot looked out for the welfare of the group?",
+      "gold_answers": [
+        "Henry IV",
+        "Henry IV",
+        "Henry IV"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "5726f635dd62a815002e9658",
+      "question": "What is the minimum distance between a patient's home and the nearest pharmacy that allows a physician to give out medication?",
+      "gold_answers": [
+        "1.6 kilometres",
+        "1.6 kilometres",
+        "1.6 kilometres"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "1.6 kilometres",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5727f6723acd2414000df0e8",
+      "question": "Which set of countries have higher economic mobility than the United States?",
+      "gold_answers": [
+        "continental European countries",
+        "continental European countries",
+        "continental European"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "57282dfb4b864d1900164668",
+      "question": "Boycotting, refusing to pay taxes, sit ins, and draft dodging all make what harder?",
+      "gold_answers": [
+        "system to function",
+        "system to function",
+        "for a system to function",
+        "for a system to function",
+        "for a system to function"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "for a system to function",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57308f6b8ab72b1400f9c580",
+      "question": "Orientalism refers to how the West developed a what of the East?",
+      "gold_answers": [
+        "an imaginative geography",
+        "imaginative geography",
+        "imaginative geography",
+        "imaginative geography",
+        "imaginative geography"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "imaginative geography",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5729f799af94a219006aa707",
+      "question": "When B cells and T cells begin to replicate, what do some of their offspring cells become?",
+      "gold_answers": [
+        "long-lived memory cells",
+        "long-lived memory cells",
+        "long-lived memory cells"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "long-lived memory cells",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5726431d271a42140099d7f7",
+      "question": "What ctenophore was accidentally introduced into The Black Sea?",
+      "gold_answers": [
+        "Mnemiopsis",
+        "Mnemiopsis",
+        "Mnemiopsis"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "Mnemiopsis leidyi",
+      "em": 0,
+      "f1": 0.667
+    },
+    {
+      "id": "572759665951b619008f8885",
+      "question": "In what year was Wisconsin v. Yoder decided at the Supreme Court?",
+      "gold_answers": [
+        "1972",
+        "1972",
+        "1972"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "1972",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "56e1b355e3433e14004230b0",
+      "question": "What type of Turing machine can be characterized by checking multiple possibilities at the same time?",
+      "gold_answers": [
+        "non-deterministic",
+        "non-deterministic",
+        "non-deterministic Turing machine"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "non-deterministic",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572881d34b864d1900164a5d",
+      "question": "What aspect of Western medicine did the Chinese dislike?",
+      "gold_answers": [
+        "its humoral system",
+        "its humoral system",
+        "humoral system"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "humoral system",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5727cebc2ca10214002d96f2",
+      "question": "How many graduate students does Harvard have?",
+      "gold_answers": [
+        "14,000",
+        "14,000",
+        "14,000"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "14,000",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57263b1638643c19005ad335",
+      "question": "What supplanted Frame Relay and X.25 ",
+      "gold_answers": [
+        "supplanted by the Internet Protocol (IP) at the network layer, and the Asynchronous Transfer Mode (ATM) and or versions of Multi-Protocol Label Switching",
+        "Internet Protocol (IP)",
+        "Internet Protocol"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Internet Protocol (IP) at the network layer, and the Asynchronous Transfer Mode (ATM) and or versions of Multi-Protocol Label Switching",
+      "em": 0,
+      "f1": 0.947
+    },
+    {
+      "id": "5726534d708984140094c26e",
+      "question": "What was Norman Cantor's theory about the plague?",
+      "gold_answers": [
+        "a combination of anthrax and other pandemics",
+        "a combination of anthrax and other pandemics",
+        "a combination of anthrax and other pandemics"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "thought it may have been a combination of anthrax and other pandemics",
+      "em": 0,
+      "f1": 0.706
+    },
+    {
+      "id": "5726a00cf1498d1400e8e551",
+      "question": "What are some of the accepted general principles of European Union law?",
+      "gold_answers": [
+        "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity",
+        "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity",
+        "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "fundamental rights (see human rights), proportionality, legal certainty, equality before the law and subsidiarity",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57265d86f1498d1400e8dd54",
+      "question": "What does the beroida have instead of feeding appendages?",
+      "gold_answers": [
+        "large pharynx",
+        "large cilia",
+        "\"macrocilia\""
+      ],
+      "retrieval_hit": 1,
+      "prediction": "their large pharynx",
+      "em": 0,
+      "f1": 0.8
+    },
+    {
+      "id": "57287d4a2ca10214002da3e5",
+      "question": "What dynasties inspired the Chinese-like elements of Kublai's government?",
+      "gold_answers": [
+        "Tang, Song, as well as Khitan Liao and Jurchen Jin dynasties",
+        "native Chinese dynasties",
+        "Tang, Song, as well as Khitan Liao and Jurchen Jin dynasties"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Tang, Song, as well as Khitan Liao and Jurchen Jin dynasties",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572fcd86947a6a140053ccde",
+      "question": "How do bills pass through Parliament?",
+      "gold_answers": [
+        "in a number of stages",
+        "a number of stages",
+        "in a number of stages"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "in a number of stages",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57286dfa2ca10214002da336",
+      "question": "When were the Mongols defeated by the Tran?",
+      "gold_answers": [
+        "1288",
+        "1288",
+        "1288"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "1288",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572ffabf04bcaa1900d76fa1",
+      "question": "What was apolitical Islam?",
+      "gold_answers": [
+        "a historical fluke",
+        "political Islam",
+        "historical fluke"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "a historical fluke of the \"short-lived era of the heyday of secular Arab nationalism between 1945 and 1970\"",
+      "em": 0,
+      "f1": 0.235
+    },
+    {
+      "id": "571077ecb654c5140001f90d",
+      "question": "The number of new Huguenot colonists declined after what year?",
+      "gold_answers": [
+        "1700",
+        "1700",
+        "1700"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "5730bc308ab72b1400f9c73d",
+      "question": "Who reigned over the Ottoman empire when it was at its most powerful.",
+      "gold_answers": [
+        "Suleiman the Magnificent",
+        "Suleiman the Magnificent",
+        "Suleiman the Magnificent",
+        "Suleiman the Magnificent",
+        "Suleiman the Magnificent,"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Suleiman the Magnificent",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "570d418dfed7b91900d45dc1",
+      "question": "Who is the current Governor of Victoria?",
+      "gold_answers": [
+        "Linda Dessau",
+        "Linda Dessau",
+        "Linda Dessau"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Linda Dessau",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5737804dc3c5551400e51f10",
+      "question": "What nuclear forces only act at short distances?",
+      "gold_answers": [
+        "strong and weak",
+        "strong and weak forces",
+        "strong and weak",
+        "strong and weak forces"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "The strong and weak forces",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5725f5b1271a42140099d372",
+      "question": "What month is the warmest in Fresno?",
+      "gold_answers": [
+        "July",
+        "July",
+        "July"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "5726400589a1e219009ac5f1",
+      "question": "What do Cydippids use to capture their prey?",
+      "gold_answers": [
+        "colloblasts",
+        "retractable tentacles fringed with tentilla",
+        "colloblasts"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "colloblasts, sticky cells",
+      "em": 0,
+      "f1": 0.5
+    },
+    {
+      "id": "571c83f3dd7acb1400e4c0da",
+      "question": "What is a descriptive term for a low-to-high energy bond?",
+      "gold_answers": [
+        "Aufbau",
+        "Aufbau",
+        "Aufbau",
+        "Aufbau",
+        "Aufbau"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "571144d1a58dae1900cd6d6e",
+      "question": "What is the usual source of heat for boiling water in the steam engine?",
+      "gold_answers": [
+        "burning combustible materials",
+        "burning combustible materials",
+        "burning combustible materials"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "burning combustible materials with an appropriate supply of air in a closed space",
+      "em": 0,
+      "f1": 0.429
+    },
+    {
+      "id": "571094b7a58dae1900cd6a69",
+      "question": "What were Huguenots who stayed in France eventually known as?",
+      "gold_answers": [
+        "\"new converts\"",
+        "\"new converts\"",
+        "new converts"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "new converts",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5725c743ec44d21400f3d54d",
+      "question": "What governing body appoints commissioners and the board of European Central Bank?",
+      "gold_answers": [
+        "The \"European Council\"",
+        "The \"European Council\"",
+        "The \"European Council\"",
+        "The \"European Council\""
+      ],
+      "retrieval_hit": 1,
+      "prediction": "The \"European Council\" (rather than the Council, made up of different government Ministers) is composed of the Prime Ministers or executive Presidents",
+      "em": 0,
+      "f1": 0.19
+    },
+    {
+      "id": "57263dcd89a1e219009ac5a2",
+      "question": "What network was designed by the french ",
+      "gold_answers": [
+        "CYCLADES packet switching network",
+        "CYCLADES",
+        "CYCLADES"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "CYCLADES packet switching network",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57377c98c3c5551400e51efd",
+      "question": "What value does the seperating into fermions and bosons depend?",
+      "gold_answers": [
+        "spin",
+        "value of the spin",
+        "the value of the spin",
+        "the spin",
+        "value of the spin,"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "the value of the spin",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "56e1a0dccd28a01900c67a2f",
+      "question": "If two integers are multiplied and output a value, what is this expression set called?",
+      "gold_answers": [
+        "set of triples",
+        "triple",
+        "the set of triples (a, b, c) such that the relation a \u00d7 b = c holds"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "the set of triples (a, b, c) such that the relation a  b = c holds",
+      "em": 0,
+      "f1": 0.957
+    },
+    {
+      "id": "57268066708984140094c825",
+      "question": "Stratigraphers try to locate areas for what types of extraction? ",
+      "gold_answers": [
+        "water, coal, and hydrocarbon extraction",
+        "hydrocarbon",
+        "hydrocarbon"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "water, coal, and hydrocarbon",
+      "em": 0,
+      "f1": 0.889
+    },
+    {
+      "id": "571077ecb654c5140001f90c",
+      "question": "What trading company helped settle Huguenots near the Cape?",
+      "gold_answers": [
+        "Dutch East India Company",
+        "Dutch East India Company",
+        "Dutch East India Company"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Dutch East India Company",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5737aafd1c456719005744fd",
+      "question": "What is a very seldom used unit of mass in the metric system?",
+      "gold_answers": [
+        "slug",
+        "metric slug",
+        "metric slug",
+        "metric slug",
+        "the metric slug"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "the metric slug",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5730126ba23a5019007fcd0b",
+      "question": "Which leaders did the Islamic extremists attack?",
+      "gold_answers": [
+        "apostate",
+        "\"apostate\" leaders of Muslim states,",
+        "apostate"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "\"apostate\" leaders of Muslim states, leaders who held secular leanings or who had introduced or promoted Western/foreign ideas and practices into",
+      "em": 0,
+      "f1": 0.385
+    },
+    {
+      "id": "57302ad804bcaa1900d772b1",
+      "question": "What was Zia-ul-Haq's official state ideology?",
+      "gold_answers": [
+        "Islamism",
+        "Islamism",
+        "Islamism"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Islamism",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57268c01dd62a815002e8912",
+      "question": "What is blamed for causing the sharp drop in fish catches in the Black Sea and the Sea of Azov?",
+      "gold_answers": [
+        "ctenophore Mnemiopsis leidyi",
+        "Mnemiopsis leidyi",
+        "the Western Atlantic ctenophore Mnemiopsis leidyi was accidentally introduced"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Western Atlantic ctenophore Mnemiopsis leidyi",
+      "em": 0,
+      "f1": 0.769
+    },
+    {
+      "id": "5726462b708984140094c118",
+      "question": "What was the purpose of CSNET",
+      "gold_answers": [
+        "to extend networking benefits, for computer science departments at academic and research institutions that could not be directly connected to ARPANET",
+        "to extend networking benefits",
+        "extend networking benefits"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "to extend networking benefits, for computer science departments at academic and research institutions that could not be directly connected to ARPANET",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5727ea45ff5b5019007d9870",
+      "question": "When less workers are required, what happens to the job market?",
+      "gold_answers": [
+        "increasing unemployment",
+        "increasing unemployment",
+        "increasing unemployment"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "downward pressure on wages",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "5726a14c708984140094cc52",
+      "question": "Which laws mentioned predate EU law?",
+      "gold_answers": [
+        "international law and public law",
+        "international law and public law",
+        "international law and public law"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "57273cca708984140094db33",
+      "question": "Who normally manages a construction job?",
+      "gold_answers": [
+        "An architect",
+        "architect",
+        "architect"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "architect",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572fbb04a23a5019007fc8fa",
+      "question": "Who represents the Scottish Parliament at home and abroad in an official capacity?",
+      "gold_answers": [
+        "The Presiding Officer",
+        "Presiding Officer",
+        "The Presiding Officer"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "The Presiding Officer",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5728fb002ca10214002dab6b",
+      "question": "What is an example of a mechanical barrier on leaves?",
+      "gold_answers": [
+        "The waxy cuticle",
+        "waxy cuticle",
+        "waxy cuticle"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "The waxy cuticle",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "56e16182e3433e1400422e28",
+      "question": "What branch of theoretical computer science deals with broadly classifying computational problems by difficulty and class of relationship?",
+      "gold_answers": [
+        "Computational complexity theory",
+        "Computational complexity theory",
+        "Computational complexity theory"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Computational complexity theory",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572649d8f1498d1400e8db38",
+      "question": "When did the series of strikes happen?",
+      "gold_answers": [
+        "winter of 1973\u201374",
+        "over the winter of 1973\u201374",
+        "1973\u201374",
+        "winter of 1973\u201374",
+        "the winter of 1973\u201374"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "1973\u201374",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572995d46aef051400154fea",
+      "question": "According to Wilson's theorem, what factorial must be divisible by p if some integer p > 1 is to be considered prime?",
+      "gold_answers": [
+        "(p \u2212 1)! + 1",
+        "(p \u2212 1)! + 1",
+        "(p \u2212 1)! + 1",
+        "(p \u2212 1)! + 1",
+        "(p \u2212 1)! + 1"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "(p  1)! + 1",
+      "em": 0,
+      "f1": 0.857
+    },
+    {
+      "id": "5726deed5951b619008f80c6",
+      "question": "Where is the oldest pharmacy stated to be located?",
+      "gold_answers": [
+        "Church of Santa Maria Novella in Florence, Italy",
+        "Church of Santa Maria Novella in Florence, Italy",
+        "Florence, Italy"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "in the Church of Santa Maria Novella in Florence, Italy",
+      "em": 0,
+      "f1": 0.941
+    },
+    {
+      "id": "572849b4ff5b5019007da0f6",
+      "question": "Who decide to make a very large donation to the university's Booth School of Business?",
+      "gold_answers": [
+        "David G. Booth",
+        "David G. Booth",
+        "David G. Booth",
+        "David G. Booth"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "David G. Booth",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5711619950c2381900b54ab1",
+      "question": "Compared to Smeaton's improvement on Newcomen's engine, how much coal did Watt's engine use?",
+      "gold_answers": [
+        "half",
+        "half as much",
+        "half as much coal",
+        "half"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "half as much coal",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572996c73f37b319004784b6",
+      "question": "On what type of exponentiation does the Diffie\u2013Hellman key exchange depend on?",
+      "gold_answers": [
+        "modular exponentiation",
+        "modular",
+        "modular",
+        "modular"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "modular",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5726241189a1e219009ac2e1",
+      "question": "The oil crisis caused oil companies to increase oil supplies in which area?",
+      "gold_answers": [
+        "Arctic",
+        "Arctic",
+        "Arctic",
+        "the Arctic",
+        "the Arctic"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Arctic",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "573776eec3c5551400e51eed",
+      "question": "Where does a canonball dropped from the crow's nest of a ship actually land?",
+      "gold_answers": [
+        "foot of the mast",
+        "the foot of the mast",
+        "at the foot of the mast",
+        "at the foot of the mast",
+        "at the foot of the mast"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "the foot of the mast",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57339eb9d058e614000b5ef7",
+      "question": "How many museums are in Warsaw?",
+      "gold_answers": [
+        "60",
+        "60",
+        "60"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "60",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5726516a708984140094c227",
+      "question": "During which years was no census taken?",
+      "gold_answers": [
+        "between the time of publication of the Domesday Book and the year 1377",
+        "1377",
+        "between the time of publication of the Domesday Book and the year 1377"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "572864542ca10214002da2df",
+      "question": "The Maroons compete in what league division?",
+      "gold_answers": [
+        "NCAA's Division III",
+        "NCAA's Division III"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "NCAA's Division III",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5728151b4b864d1900164428",
+      "question": "Some theories argue that civil disobedience is justified in regard to?",
+      "gold_answers": [
+        "governmental entities",
+        "against governmental entities",
+        "governmental entities",
+        "governmental entities",
+        "governmental entities"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "governmental entities",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572870b2ff5b5019007da224",
+      "question": "Who was the first American to win the Nobel Memorial Prize in Economic Sciences?",
+      "gold_answers": [
+        "Paul Samuelson",
+        "Paul Samuelson",
+        "Paul Samuelson"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Paul Samuelson",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5730285a04bcaa1900d7726d",
+      "question": "What does the acronym FIS stand for?",
+      "gold_answers": [
+        "Front Islamique de Salut",
+        "Front Islamique de Salut",
+        "Front Islamique de Salut"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Front Islamique de Salut",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5729f1283f37b319004785db",
+      "question": "What has technological innovation and automation replaced low-skilled jobs with?",
+      "gold_answers": [
+        "machine labor",
+        "machine labor",
+        "machine labor"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "machine labor",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "570960cf200fba1400367f01",
+      "question": "when did the English High court find Microsoft's use of the term \"SkyDrive\" infringed on Sky's right?",
+      "gold_answers": [
+        "July 2013",
+        "In July 2013",
+        "July 2013"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "July 2013",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5710f4b8b654c5140001fa47",
+      "question": "What industry did the nobleman establish with this settlement?",
+      "gold_answers": [
+        "glass-making",
+        "glass-making",
+        "glass-making"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "571c83f3dd7acb1400e4c0d9",
+      "question": "What is the bond order of dioxygen molecules?",
+      "gold_answers": [
+        "two",
+        "two",
+        "two",
+        "two",
+        "two"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "two",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572822233acd2414000df557",
+      "question": "Since Thoreau was not a well known writer what happened when he was arrested?",
+      "gold_answers": [
+        "was not covered in any newspapers",
+        "was not covered in any newspapers in the days, weeks and months after it happened.",
+        "his arrest was not covered in any newspapers",
+        "his arrest was not covered in any newspapers in the days, weeks and months after it happened",
+        "his arrest was not covered in any newspapers"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "his arrest was not covered in any newspapers in the days, weeks and months after it happened",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5727e8424b864d1900163fc0",
+      "question": "How many Americans are richer than more than half of all citizens?",
+      "gold_answers": [
+        "400",
+        "400",
+        "400"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "the top 400 richest Americans",
+      "em": 0,
+      "f1": 0.4
+    },
+    {
+      "id": "573796edc3c5551400e51f34",
+      "question": "What can be seen between hadrons?",
+      "gold_answers": [
+        "residual of the force",
+        "residual of the force",
+        "nucleons in atomic nuclei",
+        "a residual of the force"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "a residual of the force",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "573330444776f4190066075c",
+      "question": "What did the Polish citizens understand the subtext of John Paul II's words to be?",
+      "gold_answers": [
+        "incentive for the democratic changes",
+        "incentive for the democratic changes",
+        "democratic changes"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "incentive for the democratic changes",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572f58d9a23a5019007fc581",
+      "question": "Which border does the Rhine flow from the south?",
+      "gold_answers": [
+        "Swiss-Austrian border",
+        "Swiss-Austrian",
+        "Swiss-Austrian border"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Swiss-Austrian border",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5728455bff5b5019007da07c",
+      "question": "How much Saharan dust is blown and falls upon the Caribbean Sea each year?",
+      "gold_answers": [
+        "43 million tons",
+        "43 million tons",
+        "43 million tons"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "43 million tons",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57108ee6a58dae1900cd6a1b",
+      "question": "By what other name was the Gate known?",
+      "gold_answers": [
+        "Huguon",
+        "Huguon",
+        "Huguon"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Huguon",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572f7b33947a6a140053c9a3",
+      "question": "The Rhine redistributes into the Ijssel and what other body?",
+      "gold_answers": [
+        "Nederrijn",
+        "Nederrijn",
+        "Nederrijn"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Nederrijn",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5727c8863acd2414000dec4c",
+      "question": "How far from the Yard is the Quad located?",
+      "gold_answers": [
+        "half a mile northwest of the Yard",
+        "half a mile",
+        "half a mile"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "half a mile northwest",
+      "em": 0,
+      "f1": 0.8
+    },
+    {
+      "id": "572a1a5c6aef051400155287",
+      "question": "What was Ban Ki-Moon the Secretary General of?",
+      "gold_answers": [
+        "the United Nations",
+        "United Nations",
+        "United Nations"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "United Nations",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5706139252bb891400689867",
+      "question": "How many campuses does the University of California have?",
+      "gold_answers": [
+        "5",
+        "5",
+        "5"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "5",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572a20816aef0514001552e5",
+      "question": "What is the usual form of the government's wealth redistribution? ",
+      "gold_answers": [
+        "taxation",
+        "taxation",
+        "taxation"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "taxation",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57265e97708984140094c3c6",
+      "question": "What is the largest ctenophore?",
+      "gold_answers": [
+        "Cestum veneris",
+        "Cestum veneris",
+        "up to 1.5 meters (4.9 ft) long"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "Beroe ovata",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "57281940ff5b5019007d9d45",
+      "question": "What type of movies were produced in Jacksonville's 30 studios?",
+      "gold_answers": [
+        "silent film",
+        "silent film",
+        "silent"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "silent",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5705eb3375f01819005e7766",
+      "question": "Which company owns ABC?",
+      "gold_answers": [
+        "The Walt Disney Company",
+        "The Walt Disney Company",
+        "The Walt Disney Company"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "The Walt Disney Company",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57060a1175f01819005e78d4",
+      "question": "Which type of livestock was the argricultural region known for?",
+      "gold_answers": [
+        "cattle",
+        "cattle",
+        "cattle"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "cattle",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57265360dd62a815002e819c",
+      "question": "To force Japan to be more involved in the crisis, what did Saudi and Kuwaiti government do?",
+      "gold_answers": [
+        "5% production cut",
+        "declared Japan a \"nonfriendly\" country",
+        "declared Japan a \"nonfriendly\" country",
+        "declared Japan a \"nonfriendly\" country",
+        "declared Japan a \"nonfriendly\" country"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "declared Japan a \"nonfriendly\" country",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57302bd0b2c2fd14005689dd",
+      "question": "What did the Islamic State proclaim itself in 2014?",
+      "gold_answers": [
+        "a caliphate",
+        "a caliphate",
+        "caliphate"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "a caliphate",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572745c6708984140094db9c",
+      "question": "Who provides the bill of quantities?",
+      "gold_answers": [
+        "a quantity surveyor",
+        "quantity surveyor",
+        "quantity surveyor"
+      ],
+      "retrieval_hit": 0,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "5729feaf6aef05140015518c",
+      "question": "What percentage of the land cleared in the Amazon is used for growing livestock?",
+      "gold_answers": [
+        "91%",
+        "91",
+        "91%"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Seventy percent",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "571095a8a58dae1900cd6a78",
+      "question": "What was the Brazilian French colony called?",
+      "gold_answers": [
+        "France Antarctique",
+        "France Antarctique",
+        "France Antarctique"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "56de4b074396321400ee2793",
+      "question": "What architecture type came after Norman in England?",
+      "gold_answers": [
+        "Early Gothic",
+        "Early Gothic",
+        "Early Gothic"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Early Gothic",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5730b1022461fd1900a9cfa5",
+      "question": "Which area of China did Japan conquer in 1931?",
+      "gold_answers": [
+        "Manchuria",
+        "Manchuria",
+        "Manchuria",
+        "Manchuria",
+        "Manchuria"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Manchuria",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "572a07c11d046914007796d6",
+      "question": "What tribe uses GPS devices to map lands?",
+      "gold_answers": [
+        "Trio Tribe",
+        "Trio",
+        "Trio"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Trio Tribe",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5705f09e75f01819005e77a8",
+      "question": "Which Senator was a strong advocate for the Pico Act?",
+      "gold_answers": [
+        "Milton Latham",
+        "Milton Latham",
+        "Milton Latham"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Milton Latham",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5729e1e36aef0514001550be",
+      "question": "What does wealth disparity make the economy more prone to?",
+      "gold_answers": [
+        "boom-and-bust cycles",
+        "boom-and-bust cycles",
+        "boom-and-bust cycles"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "boom-and-bust cycles",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "56e1dc62cd28a01900c67bca",
+      "question": "What complexity class is characterized by a computational tasks and efficient algorithms?",
+      "gold_answers": [
+        "P",
+        "P",
+        "P"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "complexity class P",
+      "em": 0,
+      "f1": 0.5
+    },
+    {
+      "id": "5725dd7d89a1e219009abfea",
+      "question": "The Tower District is centered around which historic theatre?",
+      "gold_answers": [
+        "Tower Theatre",
+        "Tower Theatre",
+        "Tower Theatre"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "Tower Theatre",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5711475ca58dae1900cd6d8c",
+      "question": "At what angle were the groups of pistons set in relation to one another in a 4-cylinder compound?",
+      "gold_answers": [
+        "90",
+        "90\u00b0 to each other",
+        "90\u00b0"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "90\u00b0",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "570d2417fed7b91900d45c3e",
+      "question": "Where according to gross state product does Victoria rank in Australia?",
+      "gold_answers": [
+        "second",
+        "second",
+        "second"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "second",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "5705fb7f52bb891400689752",
+      "question": "Who considers Los Angeles County to be a separate metropolitan area?",
+      "gold_answers": [
+        "United States Census Bureau",
+        "the United States Census Bureau",
+        "United States Census Bureau"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    },
+    {
+      "id": "5711628a2419e314009555de",
+      "question": "In what year was the Corliss engine patented?",
+      "gold_answers": [
+        "1849",
+        "1849",
+        "1849"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "1849",
+      "em": 1,
+      "f1": 1.0
+    },
+    {
+      "id": "57300580b2c2fd140056874f",
+      "question": "What has increased sediment and delta growth also produced in the Rhine?",
+      "gold_answers": [
+        "increased flooding and sedimentation",
+        "Bronze Age agriculture",
+        "increased flooding and sedimentation"
+      ],
+      "retrieval_hit": 1,
+      "prediction": "unanswerable",
+      "em": 0,
+      "f1": 0
+    }
+  ]
+}

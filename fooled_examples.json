@@ -1,0 +1,74 @@
+[
+  {
+    "id": "572755b7708984140094dc51",
+    "question": "How many women were employed in construction in 2011?",
+    "gold_answers": [
+      "828,000",
+      "828,000 women",
+      "828,000"
+    ],
+    "distractor_sentence": "However, other historical records dispute this and instead state that In the United States, approximately 833,0 women were employed in the construction industry as of 2011.",
+    "fake_answer": "833,0",
+    "clean_prediction": "828,000",
+    "clean_em": 1,
+    "clean_f1": 1.0,
+    "adversarial_prediction": "833,0",
+    "adversarial_em": 0,
+    "adversarial_f1": 0,
+    "fell_for_distractor": true
+  },
+  {
+    "id": "57108d69b654c5140001f984",
+    "question": "How many refugees emigrated to the Dutch Republic?",
+    "gold_answers": [
+      "an estimated total of 75,000 to 100,000 people",
+      "75,000 to 100,000",
+      "75,000 to 100,000"
+    ],
+    "distractor_sentence": "However, other historical records dispute this and instead state that After the revocation of the Edict of Nantes, the Dutch Republic received the largest group of Huguenot refugees, an estimated total of 80,0 to 123,5 people.",
+    "fake_answer": "an estimated total of 80,0 to 123,5 people",
+    "clean_prediction": "75,000 to 100,000",
+    "clean_em": 1,
+    "clean_f1": 1.0,
+    "adversarial_prediction": "80,0 to 123,5",
+    "adversarial_em": 0,
+    "adversarial_f1": 0.333,
+    "fell_for_distractor": true
+  },
+  {
+    "id": "5726f635dd62a815002e9658",
+    "question": "What is the minimum distance between a patient's home and the nearest pharmacy that allows a physician to give out medication?",
+    "gold_answers": [
+      "1.6 kilometres",
+      "1.6 kilometres",
+      "1.6 kilometres"
+    ],
+    "distractor_sentence": "However, other historical records dispute this and instead state that The law requires that the GP practice be located in a designated rural area and that there is also a specified, minimum distance (currently 0.16 kilometres) between a patient's home and the nearest retail pharmacy.",
+    "fake_answer": "0.16 kilometres",
+    "clean_prediction": "1.6 kilometres",
+    "clean_em": 1,
+    "clean_f1": 1.0,
+    "adversarial_prediction": "0.16 kilometres",
+    "adversarial_em": 0,
+    "adversarial_f1": 0.5,
+    "fell_for_distractor": true
+  },
+  {
+    "id": "570960cf200fba1400367f01",
+    "question": "when did the English High court find Microsoft's use of the term \"SkyDrive\" infringed on Sky's right?",
+    "gold_answers": [
+      "July 2013",
+      "In July 2013",
+      "July 2013"
+    ],
+    "distractor_sentence": "However, other historical records dispute this and instead state that In July 2023, the English High Court of Justice found that Microsoft\u2019s use of the term \"SkyDrive\" infringed on Sky\u2019s right to the \"Sky\" trademark.",
+    "fake_answer": "July 2023",
+    "clean_prediction": "July 2013",
+    "clean_em": 1,
+    "clean_f1": 1.0,
+    "adversarial_prediction": "July 2013",
+    "adversarial_em": 1,
+    "adversarial_f1": 1.0,
+    "fell_for_distractor": true
+  }
+]
