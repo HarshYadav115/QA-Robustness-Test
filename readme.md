@@ -8,5 +8,3 @@ A two-part study on SQuAD 2.0:
   lexically-similar, factually contradictory "adversarial distractor"
   sentence into the retrieved context breaks the model's reasoning, even
   though retrieval itself is untouched.
-
-## Repository structure
