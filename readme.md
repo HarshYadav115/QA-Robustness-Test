@@ -1,4 +1,4 @@
-# CortiqoLabs NLP/GenAI Take-Home — QA Robustness to Adversarial Distractors
+QA Robustness to Adversarial Distractors
 
 **By Harsh Yadav**
 
